@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Daniel Graf (woo)"
+title: "Soundbytes"
+description: "Everything about the Carnegie Mellon Soundbytes. Fun times had by all."
+keywords: "soundbytes, carnegie, mellon, music, acapella"
 favicon: "/img/favicon.ico"
 
 ################
@@ -57,6 +57,11 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
+  - text: "Why am I awesome?"
+  - text: "This is procrastinating"
+  - text: "Someone help me"
+  - text: "Oops..."
+  - text: "Normally I'm last"
 
 me-img: "/img/jetpacktocat.png"
 
