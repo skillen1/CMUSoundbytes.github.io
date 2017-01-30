@@ -1,6 +1,28 @@
 ---
 ---
 
+.imgWrap {
+  position: relative;
+//  height: 200px;
+//  width: 257px;
+}
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  //background: #BBB;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility opacity 1s;
+}
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
 .timeline {
     position: relative;
     padding: 0;

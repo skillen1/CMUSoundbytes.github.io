@@ -9,17 +9,27 @@
         
         {{ page.content | markdownify }}
           
-        {% for m in site.members_list %}
-          {{m[1].name}},{{m[1].section}},<img class="img-responsive center-block fourofour" src="{{site.baseurl}}{{m[1].pic}}" alt="">
-<!--
-            {% for page in site.pages %}
-                {% if m[1] == page.name %}
-                    {{ page.name }}
-                {% endif %}
-            {% endfor %}
--->
-        {% endfor %}
-
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/img/members/daniel/daniel2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="col-md-4">
+                <img src="/img/members/daniel/daniel3.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="col-md-4">
+                <img src="/img/members/daniel/daniel1LOGO.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+        </div>
+        <div class="row">  
+          {% for m in site.members_list %}
+            <div class="col-md-4">
+                <div class="imgWrap">
+                    <img class="img-responsive center-block fourofour" src="{{site.baseurl}}{{m[1].pic}}" alt="">
+                    <p class="imgDescription">{{m[1].name}},{{m[1].section}}.</p>
+                </div>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
 </section>

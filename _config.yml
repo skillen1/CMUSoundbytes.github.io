@@ -187,10 +187,98 @@ pages_list:
 # List of active members
 
 members_list:
+#Sopranos
+  leah: 
+    name: 'Leah Anton'
+    section: 'Soprano'
+    pic: "/img/members/basses/daniel/daniel2.jpg"
+  catherine: 
+    name: 'Catherine Mondoa'
+    section: 'Soprano'
+    pic: "/img/members/sopranos/catherine/catherine4-MAIN.jpg"
+  shreya: 
+    name: 'Shreya Desikan'
+    section: 'Soprano'
+    pic: "/img/members/sopranos/shreya/shreya4-MAIN.jpg"
+  zoe: 
+    name: 'Zoe Lehn'
+    section: 'Soprano'
+    pic: "/img/members/sopranos/zoe/zoe2-MAIN.jpg"
+  lexi: 
+    name: 'Alexis De La Rosa'
+    section: 'Soprano'
+    pic: "/img/members/sopranos/lexi/lexi1-MAIN.jpg"
+#Altos
+  toby: 
+    name: 'Toby Donoghue'
+    section: 'Alto'
+    pic: "/img/members/altos/toby/toby1-MAIN.jpg"
+  sarah: 
+    name: 'Sarah Karp'
+    section: 'Alto'
+    pic: "/img/members/altos/sarah/sarah1-MAIN.jpg"
+  angela: 
+    name: 'Angela Yoo'
+    section: 'Alto'
+    pic: "/img/members/basses/daniel/daniel2.jpg"
+  christina: 
+    name: 'Christina Cabana'
+    section: 'Alto'
+    pic: "/img/members/basses/daniel/daniel2.jpg"
+  christie: 
+    name: 'Christie Chang'
+    section: 'Alto'
+    pic: "/img/members/basses/daniel/daniel2.jpg"
+
+#Tenors
+  quinton: 
+    name: 'Quinton Laurencio'
+    section: 'Tenor'
+    pic: "/img/members/tenors/q/Q4-MAIN.jpg"
+  johnathan: 
+    name: 'Johnathan Roppo'
+    section: 'Tenor'
+    pic: "/img/members/tenors/johnathan/johnthan4-MAIN.jpg"
+  jesse: 
+    name: 'Jesse Klein'
+    section: 'Tenor'
+    pic: "/img/members/basses/daniel/daniel2.jpg"
+  matthew: 
+    name: 'Matthew Gutierrez'
+    section: 'Tenor'
+    pic: "/img/members/tenors/matthew/matthew1-MAIN.jpg"
+  steven: 
+    name: 'Steven MacDonald'
+    section: 'Tenor'
+    pic: "/img/members/tenors/steven/steven1-MAIN.jpg"
+  philip: 
+    name: 'Philip DeCicco'
+    section: 'Tenor'
+    pic: "/img/members/basses/daniel/daniel2.jpg"
+  
+
+#Basses
   daniel: 
     name: 'Daniel Graf'
     section: 'Bass'
-    pic: "/img/largelogo.png"
+    pic: "/img/members/basses/daniel/daniel2.jpg"
+  paul: 
+    name: 'Paul Rogozenski'
+    section: 'Bass'
+    pic: "/img/members/basses/paul/paul5-MAIN.jpg"
+  nikhil: 
+    name: 'Nikhil Nilakantan'
+    section: 'Bass'
+    pic: "/img/members/basses/daniel/daniel2.jpg"
+  jack: 
+    name: 'Jack Urbanek'
+    section: 'Bass'
+    pic: "/img/members/basses/jack/jack1-MAIN.jpg"
+  sean: 
+    name: 'Sean Park'
+    section: 'Bass'
+    pic: "/img/members/basses/sean/sean3-MAIN.jpg"
+  
   
 # Exclusion list from the generated _site
 
