@@ -8,28 +8,49 @@
       <div class="col-md-10 col-md-offset-1">
         
         {{ page.content | markdownify }}
-          
-        <div class="row">
-            <div class="col-md-4">
-                <img src="/img/members/daniel/daniel2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-            </div>
-            <div class="col-md-4">
-                <img src="/img/members/daniel/daniel3.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-            </div>
-            <div class="col-md-4">
-                <img src="/img/members/daniel/daniel1LOGO.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-            </div>
-        </div>
-        <div class="row">  
-          {% for m in site.members_list %}
-            <div class="col-md-4">
+        <table id="memberTable">
+        <script>
+          var rowMax = 3;
+          if (screen.width < 800){
+              rowMax = 2;
+          }
+          var i = 0;
+          var table = document.getElementById("memberTable");
+        </script>
+        {% for m in site.members_list %}
+          <script>
+              if (i == 0) {
+                var row = table.insertRow(table.length);
+              }
+              // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
+              var cell1 = row.insertCell(i);
+              //var cell2 = row.insertCell(1);
+              
+              // Add some text to the new cells:
+              cell1.innerHTML = "<img class='img-responsive center-block fourofour' src='{{site.baseurl}}{{m[1].pic}}' alt=''>";
+              //cell2.innerHTML = i;
+              i = i + 1;
+          </script>
+<!--
+            <td>
                 <div class="imgWrap">
                     <img class="img-responsive center-block fourofour" src="{{site.baseurl}}{{m[1].pic}}" alt="">
                     <p class="imgDescription">{{m[1].name}},{{m[1].section}}.</p>
+                    <p class="imgDescription" id="test"></p>
+                    <script>
+                        document.getElementById("test").innerHTML = i;
+                    </script>
                 </div>
-            </div>
+            </td>
+-->
+            <script>
+              if (i == rowMax) {
+                i=0;
+              }
+            </script>
           {% endfor %}
-        </div>
+          
+        </table>
       </div>
     </div>
 </section>

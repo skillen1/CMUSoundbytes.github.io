@@ -191,7 +191,7 @@ members_list:
   leah: 
     name: 'Leah Anton'
     section: 'Soprano'
-    pic: "/img/members/basses/daniel/daniel2.jpg"
+    pic: "/img/members/sopranos/leah/leah1-MAIN.jpg"
   catherine: 
     name: 'Catherine Mondoa'
     section: 'Soprano'
@@ -220,15 +220,15 @@ members_list:
   angela: 
     name: 'Angela Yoo'
     section: 'Alto'
-    pic: "/img/members/basses/daniel/daniel2.jpg"
+    pic: "/img/members/altos/angela/angela2-MAIN.jpg"
   christina: 
     name: 'Christina Cabana'
     section: 'Alto'
-    pic: "/img/members/basses/daniel/daniel2.jpg"
+    pic: "/img/members/altos/christina/christina1-MAIN.jpg"
   christie: 
     name: 'Christie Chang'
     section: 'Alto'
-    pic: "/img/members/basses/daniel/daniel2.jpg"
+    pic: "/img/members/altos/christie/christie4-MAIN.jpg"
 
 #Tenors
   quinton: 
@@ -238,11 +238,11 @@ members_list:
   johnathan: 
     name: 'Johnathan Roppo'
     section: 'Tenor'
-    pic: "/img/members/tenors/johnathan/johnthan4-MAIN.jpg"
+    pic: "/img/members/tenors/johnathan/johnathan4-MAIN.jpg"
   jesse: 
     name: 'Jesse Klein'
     section: 'Tenor'
-    pic: "/img/members/basses/daniel/daniel2.jpg"
+    pic: "/img/members/tenors/jesse/jesse3-MAIN.jpg"
   matthew: 
     name: 'Matthew Gutierrez'
     section: 'Tenor'
@@ -254,7 +254,7 @@ members_list:
   philip: 
     name: 'Philip DeCicco'
     section: 'Tenor'
-    pic: "/img/members/basses/daniel/daniel2.jpg"
+    pic: "/img/members/tenors/phil/phil4-MAIN.jpg"
   
 
 #Basses
