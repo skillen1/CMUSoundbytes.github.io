@@ -19,13 +19,16 @@
           <h3 id="#{{ category }}">Category: {{ category }}</h3>
 
           <div>
-            {% for post in site.posts %}
-              {% if post.category == category %}
+            {% for post in paginator.posts %}
+<!--              {% if post.category == category %}-->
                 {% include post-list.html%}
-              {% endif %}
+<!--              {% endif %}-->
             {% endfor %}
           </div>
 
+            
+          {% include pagination.html %}
+            
         </div>
       </div>
     </section>

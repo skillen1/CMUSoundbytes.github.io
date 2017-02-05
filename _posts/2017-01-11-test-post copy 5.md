@@ -5,5 +5,5 @@ title: Test Post
 category: Test
 tags: [ 'test1', 'test2' ]
 ---
-Test
+Test 5
 :smile:
