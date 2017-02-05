@@ -27,8 +27,7 @@
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<img class='img-responsive center-block fourofour' src='{{site.baseurl}}{{m[1].pic}}' alt=''>";
-              //cell2.innerHTML = i;
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='{{site.baseurl}}{{m[1].pic}}' alt=''><h4 class='imgDescription'>{{m[1].name}},{{m[1].section}}.</h4></div>";
               i = i + 1;
           </script>
 <!--
