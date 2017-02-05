@@ -3,20 +3,36 @@
 
 .imgWrap {
   position: relative;
+  -webkit-transition: visibility 1s ease;
+  -moz-transition: visibility 1s ease;
+  -o-transition: visibility 1s ease;
+  transition: visibility 1s ease;
 
 }
 .imgDescription {
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  //background: #BBB;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255, 0.2);
   color: #fff;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: visibility opacity 1s;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
 }
+
+.imgDescription h4
+{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
