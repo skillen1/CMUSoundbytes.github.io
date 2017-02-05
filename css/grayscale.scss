@@ -20,6 +20,7 @@ body {
 
 td {
     display: block;
+    margin: 8% 0 8% 0;
 }
 
 html {
@@ -172,7 +173,10 @@ a {
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    background: linear-gradient(
+                     rgba(0,0,0, .2), 
+                     rgba(0,0,0, .99)),
+                     url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
@@ -181,10 +185,20 @@ a {
     -o-background-size: cover;
     .intro-body {
         display: table-cell;
+        text-align: right;
         vertical-align: middle;
         .brand-heading {
             font-size: 40px;
         }
+
+        #intro-content
+        {
+            position: absolute;
+            bottom: 10%;
+            right: 5%;
+            width: 50%;
+        }
+
         .intro-text {
             font-size: 18px;
             @if $navbar-text-shadow {
