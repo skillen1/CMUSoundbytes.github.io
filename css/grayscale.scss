@@ -178,6 +178,7 @@ a {
                      rgba(0,0,0, .99)),
                      url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
+    background-position: 0;
     background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
