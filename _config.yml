@@ -182,7 +182,9 @@ pages_list:
   About: 'about'
   Performances: 'latest-post'
   Members: 'member-list'
+  Audition: 'audition'
   Contact: 'contact'
+  
   
 # List of active members
  

@@ -13,8 +13,9 @@
         <a class="navbar-brand" href="{{site.baseurl}}/">
       {% endif %}
           <div>
+              
             {% if site.black-favicon %}
-              <img src="{{site.baseurl}}{{ site.black-favicon }}" width="34" height="30"  alt="">
+              <img src="{{site.baseurl}}{{ site.black-favicon }}" width="34" height="30" alt="">
             {% endif %}
             {{ site.title }}
           </div>
@@ -27,9 +28,15 @@
 
           <!-- Scroll to section for each page in index -->
           {% for p in site.pages_list %}
-            <li>
-              <a class="page-scroll" href="#{{ p[1] }}"> {{p[0]}} </a>
-            </li>
+            {% if p[1] == "audition" %}
+                <li>
+                    <a href="{{site.baseurl}}/audition/"> {{p[0]}} </a>
+                </li>
+            {% else %}
+                <li>
+                    <a class="page-scroll" href="#{{ p[1] }}"> {{p[0]}} </a>
+                </li>
+            {% endif %}
           {% endfor %}
 
         {% else %}
@@ -43,7 +50,11 @@
                 <a href="{{site.baseurl}}/blog/"> {{p[0]}} </a>
               {% endif %}
             {% else %}
-                <a href="{{site.baseurl}}/#{{ p[1] }}"> {{p[0]}} </a>
+                {% if p[1] == "audition" %}
+                    <a href="{{site.baseurl}}/audition/"> {{p[0]}} </a>
+                {% else %}
+                    <a href="{{site.baseurl}}/#{{ p[1] }}"> {{p[0]}} </a>
+                {% endif %}
             {% endif %}
             </li>
           {% endfor %}

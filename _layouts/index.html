@@ -14,8 +14,10 @@
 
     {% for p in site.pages_list %}
       {% for page in site.pages %}
-        {% if p[1] == page.section-type %}
-          {% include {{ page.path }} %}
+        {% if p[1] != "audition" %}
+            {% if p[1] == page.section-type %}
+                {% include {{ page.path }} %}
+            {% endif %}
         {% endif %}
       {% endfor %}
     {% endfor %}
