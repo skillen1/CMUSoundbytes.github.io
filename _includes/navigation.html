@@ -30,7 +30,7 @@
           {% for p in site.pages_list %}
             {% if p[1] == "audition" %}
                 <li>
-                    <a href="{{site.baseurl}}/audition/"> {{p[0]}} </a>
+                    <a href="{{site.baseurl}}/audition"> {{p[0]}} </a>
                 </li>
             {% else %}
                 <li>
@@ -51,7 +51,7 @@
               {% endif %}
             {% else %}
                 {% if p[1] == "audition" %}
-                    <a href="{{site.baseurl}}/audition/"> {{p[0]}} </a>
+                    <a href="{{site.baseurl}}/audition"> {{p[0]}} </a>
                 {% else %}
                     <a href="{{site.baseurl}}/#{{ p[1] }}"> {{p[0]}} </a>
                 {% endif %}
