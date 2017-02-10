@@ -1,13 +1,19 @@
 ---
 ---
 
+@import "variables";
+@import "mixins";
+
 .imgWrap {
   position: relative;
   -webkit-transition: visibility 1s ease;
   -moz-transition: visibility 1s ease;
   -o-transition: visibility 1s ease;
   transition: visibility 1s ease;
+}
 
+.imgWrap .img {
+  border: 1px solid $font-color;
 }
 .imgDescription {
   position: absolute;

@@ -259,9 +259,17 @@ a {
     padding-top: 100px;
     @media(min-width:767px) {
         /* margin-top: 125px; */
+        //MESS WITH THIS FOR PADDING YEAH
+//        padding-bottom: 125px;
         padding-top: 125px;
         td {
             display: table-cell;
+//            margin: 8% 8% 8% 8%;
+        }
+        
+        .memberTable {
+            border-collapse: separate;
+            border-spacing: 0px 25px;
         }
     }
     /* Added in { Personal } for responsive images in posts and section contents */
@@ -469,5 +477,5 @@ body {
  /* END Style for swipe instruction section */
 
 .fourofour {
-  border: 1px solid $primary-color !important;
+  border: 1px solid $font-color !important;
 }
