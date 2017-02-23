@@ -3,7 +3,21 @@
 
 
 <!-- Post List Start -->
+<td>
+  <div class='imgWrap'>
+    <img class='img-responsive center-block fourofour' src='{{ post.image }}' alt=''>
+    <div class='imgDescription'>
+      <h4>
+        <span class='teal'>
+          {{post.title}}
+        </span><br/>
+        {{post.category}}
+      </h4>
+    </div>
+  </div>
+</td>
 
+<!--
 <h4 align="left">
   <strong>{{ post.date | date_to_string }}</strong>
   <small>.
@@ -20,7 +34,8 @@
     {{post.content}}
   </small>
   <br class="visible-xs-block">
-<!--  <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>-->
+  <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
 </h4>
+-->
 
 <!-- Post List End -->

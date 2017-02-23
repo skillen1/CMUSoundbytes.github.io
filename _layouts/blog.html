@@ -24,13 +24,42 @@
         {{ page.content | markdownify }}
 
         <div>
-          {% for post in paginator.posts %}
-            {% include post-list.html%}
-          {% endfor %}
+          <table id="posts">
+            <script>
+              var rowMax = 3;
+              if (screen.width < 800){
+                rowMax = 2;
+              }
+              var i = 0;
+              var table = document.getElementById("posts");
+            </script>
+            <tr>
+              {% for post in paginator.posts %}
+                <script>
+                  if (i == 0) {
+                    var row = table.insertRow(table.length);
+                  }
+                  i = i + 1;
+                  if (i == rowMax) {
+                    i=0;
+                  }
+                </script>
+                {% include post-list.html%}
+              {% endfor %}
+            </tr>
+          </table>
         </div>
 
         {% include pagination.html %}
 
+          
+<!--
+        <form action="/search.html" method="get">
+          <label for="search-box">Search</label>
+          <input type="text" id="search-box" name="query">
+          <input type="submit" value="search">
+        </form>
+-->
         </div>
       </div>
     </section>

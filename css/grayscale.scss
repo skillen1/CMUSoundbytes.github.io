@@ -479,3 +479,43 @@ body {
 .fourofour {
   border: 1px solid $font-color !important;
 }
+
+.imgWrap {
+  position: relative;
+  -webkit-transition: visibility 1s ease;
+  -moz-transition: visibility 1s ease;
+  -o-transition: visibility 1s ease;
+  transition: visibility 1s ease;
+}
+
+.imgWrap .img {
+  border: 1px solid $font-color;
+}
+.imgDescription {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255, 0.2);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.imgDescription h4
+{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
