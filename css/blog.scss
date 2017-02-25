@@ -5,12 +5,30 @@
 @import "mixins";
 
 .intro {
-    {% if site.black-favicon %}
+  {% if site.blog-background-img %}
     background: linear-gradient(
                      rgba(0,0,0, .2), 
                      rgba(0,0,0, .99)),
-                     url({{ site.black-favicon }}) no-repeat bottom center scroll;
-    {% endif %}   
+                     url({{ site.blog-background-img }}) no-repeat bottom center scroll;
+    background-size: cover;
+    height: 69%;
+    
+  .intro-body {
+    display: block;
+    text-align: center;
+    padding: 10%;
+    bottom: 0;
+    
+    #blog-intro-content
+    {
+      position: absolute;
+      bottom: 50%;
+      right: 0%;
+      width: 100%;
+    }
+  }
+  {% endif %}
+  
 }
 
 textarea,

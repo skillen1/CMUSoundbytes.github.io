@@ -5,13 +5,23 @@
   <div class="intro-body">
     <div class="container">
       <div class="row">
+        {% if page.section-type == "index" %}
           <div id="intro-content" class="col-md-10 col-md-offset-1">
-            <h1>Singing in Scheme Since <span class="teal">1996</span></h1>
-            <p>
-              Known for their fierce color schemes and sultry style, Soundbytes pride themselves on their infectious performance groove - bringing their passion and sense of fun to any song that they perform.
-            </p>
+              <h1>Singing in Scheme Since <span class="teal">1996</span></h1>
+              <p>
+                Known for their fierce color schemes and sultry style, Soundbytes pride themselves on their infectious performance groove - bringing their passion and sense of fun to any song that they perform.
+              </p>
           </div>
-        </div>
+        {% elsif page.section-type == "audition" %}
+          <div id="blog-intro-content" class="col-md-10 col-md-offset-1">
+            <h1>Auditions</h1>
+          </div>
+        {% else %}
+          <div id="blog-intro-content" class="col-md-10 col-md-offset-1">
+            <h1>Performances <span class="teal">&</span> Posts</h1>
+          </div>
+        {% endif %}  
+      </div>
     </div>
   </div>
 </header>

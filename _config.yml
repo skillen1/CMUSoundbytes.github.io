@@ -42,7 +42,9 @@ favicon: "/img/soundbytesfavicon.png"
 
 black-favicon: "/img/largelogo.png"
 
-background-img: "../img/mainphoto.jpg"
+# Header Pics
+blog-background-img: "../img/group/blog_group.jpg"
+background-img: "../img/group/mainphoto.jpg"
 
 ##############################
 # Dynamic Text on the Header #
