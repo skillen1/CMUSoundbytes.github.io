@@ -6,6 +6,7 @@
 
 .intro {
   {% if site.blog-background-img %}
+    padding-top: 300px;
     background: linear-gradient(
                      rgba(0,0,0, .2), 
                      rgba(0,0,0, .99)),
@@ -16,7 +17,7 @@
   .intro-body {
     display: block;
     text-align: center;
-    padding: 10%;
+    padding: 5%;
     bottom: 0;
     
     #blog-intro-content
