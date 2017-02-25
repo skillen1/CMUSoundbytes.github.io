@@ -11,6 +11,18 @@
 		top: 45%;
 	}
 
+	#latest-post
+	#image-cell
+	{
+		display: table-cell;
+	}
+
+	#latest-post
+	td
+	{
+		text-align: center;
+	}
+
 }
 
 @media screen and (max-width: 480px) {

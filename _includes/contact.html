@@ -6,27 +6,14 @@
     <div class="col-md-10 col-md-offset-1">
 
       {{ page.content | markdownify }}
-
-      {% if site.email %}
-        {% if site.email contains '@' %}
-          {% assign newemail = site.email | split: '@' %}
-            <p>
-            <script>
-              function join_at_email(user, domain){
-              return (user && domain)?(user + "@" + domain):"";
-              }
-              document.write('<a href="mailto:'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '">'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '</a>'
-              );
-              </script>
-            </p>
-        {% else %}
-          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-        {% endif %}
-      {% endif %}
+      <ul style="list-style: none; padding: 3%;">
+        {% for network in site.social %}
+        <li style="margin: 30px 0 30px 0;">
+          <a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a>
+          {{ network.url[network.url.index(".com/")+6] }}
+        </li>
+        {% endfor %}
+      </ul>
 
     </div>
   </div>
