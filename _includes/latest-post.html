@@ -5,23 +5,28 @@
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
 
-        {{ page.content | markdownify }}
+       <!--  {{ page.content | markdownify }} -->
 
         {% assign post = site.posts.first %}
-        <h4> <strong> {{ post.date | date_to_string }} </strong>
-          <small>.
-            <a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
-              {{ post.category }}
-            </a>
-          .</small>
-          <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
-<!--          <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>-->
-          <img src="{{ post.image }}" width="34" height="30" alt="">
-        </h4>
+          <table>
+            <tr>
+              <td id="image-cell">
+                <img src="{{ post.image }}" width="100%" />
+              </td>
+              <td colspan="3">
 
-        {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
+                <a href="{{site.baseurl}}{{ post.url }}"><h4>{{post.title}}</h4></a>
+                <small>{{ post.date | date_to_string }}</small>
 
-        <h4><a href="{{site.baseurl}}/blog/">Archive</a></h4>
+                <p>
+                  {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
+                </p>
+
+                <h5><a href="{{site.baseurl}}/blog/">View More Performances</a></h5>
+
+              </td>
+            </tr>
+          </table>
 
       </div>
     </div>

@@ -507,8 +507,9 @@ body {
   transition: all 1s ease;
 }
 
-.imgDescription h4
+.imgDescription h5
 {
+    font-size: calc(12px + 0.2vw);
     position: absolute;
     bottom: 0;
     text-align: center;

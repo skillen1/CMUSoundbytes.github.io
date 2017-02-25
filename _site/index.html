@@ -13,7 +13,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Everything about the Carnegie Mellon Soundbytes. Fun times had by all.">
-  <meta name="author" content="Daniel Graf">
+  <meta name="author" content="Daniel Graf &amp; Sean Park">
   <meta name="keywords" content="soundbytes, carnegie, mellon, music, acapella">
   <link rel="canonical" href="/">
   <title>Soundbytes</title>
@@ -25,6 +25,7 @@
   <link href="/css/grayscale.css" rel="stylesheet">
   
   <link href="/css/timeline.css" rel="stylesheet">
+  <link href="/css/latest-post.css" rel="stylesheet">
   
   
   
@@ -372,26 +373,32 @@ Keeping the github buttons for reference. Not necessary though.
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
 
-        <h2 id="latest-post">Latest Post</h2>
-
+       <!--  <h2 id="latest-post">Latest Post</h2>
+ -->
 
         
-        <h4> <strong> 11 Jan 2017 </strong>
-          <small>.
-            <a class="category" href="/categories/test.html">
-              Test
-            </a>
-          .</small>
-          <strong> <a href="/test/2017/01/11/test-post.html">Test Post </a> </strong>
-<!--          <small> <a href="/test/2017/01/11/test-post.html#disqus_thread">Comments</a></small>-->
-          <img src="/img/largelogo.png" width="34" height="30" alt="">
-        </h4>
+          <table>
+            <tr>
+              <td id="image-cell">
+                <img src="/img/largelogo.png" width="100%">
+              </td>
+              <td colspan="3">
 
-        <p>Test-Double Test
+                <a href="/test/2017/01/11/test-post.html"><h4>Test Post</h4></a>
+                <small>11 Jan 2017</small>
+
+                <p>
+                  </p>
+<p>Test-Double Test
 <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle"></p>
 
+                
 
-        <h4><a href="/blog/">Archive</a></h4>
+                <h5><a href="/blog/">View More Performances</a></h5>
+
+              </td>
+            </tr>
+          </table>
 
       </div>
     </div>
@@ -524,7 +531,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/leah/leah1-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Leah Anton</span><br/>Soprano</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/leah/leah1-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Leah Anton</span><br/>Soprano</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -554,7 +561,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/catherine/catherine4-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Catherine Mondoa</span><br/>Soprano</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/catherine/catherine4-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Catherine Mondoa</span><br/>Soprano</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -584,7 +591,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/shreya/shreya4-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Shreya Desikan</span><br/>Soprano</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/shreya/shreya4-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Shreya Desikan</span><br/>Soprano</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -614,7 +621,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/zoe/zoe2-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Zoe Lehn</span><br/>Soprano</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/zoe/zoe2-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Zoe Lehn</span><br/>Soprano</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -644,7 +651,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/lexi/lexi1-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Alexis De La Rosa</span><br/>Soprano</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/sopranos/lexi/lexi1-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Alexis De La Rosa</span><br/>Soprano</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -674,7 +681,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/toby/toby1-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Toby Donoghue</span><br/>Alto</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/toby/toby1-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Toby Donoghue</span><br/>Alto</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -704,7 +711,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/sarah/sarah1-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Sarah Karp</span><br/>Alto</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/sarah/sarah1-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Sarah Karp</span><br/>Alto</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -734,7 +741,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/angela/angela2-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Angela Yoo</span><br/>Alto</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/angela/angela2-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Angela Yoo</span><br/>Alto</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -764,7 +771,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/christina/christina1-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Christina Cabana</span><br/>Alto</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/christina/christina1-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Christina Cabana</span><br/>Alto</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -794,7 +801,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/christie/christie4-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Christie Chang</span><br/>Alto</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/altos/christie/christie4-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Christie Chang</span><br/>Alto</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -824,7 +831,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/q/Q4-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Quinton Laurencio</span><br/>Tenor</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/q/Q4-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Quinton Laurencio</span><br/>Tenor</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -854,7 +861,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/johnathan/johnathan4-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Johnathan Roppo</span><br/>Tenor</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/johnathan/johnathan4-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Johnathan Roppo</span><br/>Tenor</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -884,7 +891,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/jesse/jesse3-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Jesse Klein</span><br/>Tenor</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/jesse/jesse3-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Jesse Klein</span><br/>Tenor</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -914,7 +921,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/matthew/matthew1-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Matthew Gutierrez</span><br/>Tenor</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/matthew/matthew1-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Matthew Gutierrez</span><br/>Tenor</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -944,7 +951,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/steven/steven1-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Steven MacDonald</span><br/>Tenor</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/steven/steven1-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Steven MacDonald</span><br/>Tenor</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -974,7 +981,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/phil/phil4-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Philip DeCicco</span><br/>Tenor</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/tenors/phil/phil4-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Philip DeCicco</span><br/>Tenor</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -1004,7 +1011,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/daniel/daniel2-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Daniel Graf</span><br/>Bass</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/daniel/daniel2-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Daniel Graf</span><br/>Bass</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -1034,7 +1041,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/paul/paul5-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Paul Rogozenski</span><br/>Bass</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/paul/paul5-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Paul Rogozenski</span><br/>Bass</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -1064,7 +1071,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/nikhil/nikhil1-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Nikhil Nilakantan</span><br/>Bass</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/nikhil/nikhil1-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Nikhil Nilakantan</span><br/>Bass</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -1094,7 +1101,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/jack/jack1-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Jack Urbanek</span><br/>Bass</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/jack/jack1-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Jack Urbanek</span><br/>Bass</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -1124,7 +1131,7 @@ Keeping the github buttons for reference. Not necessary though.
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/sean/sean3-MAIN-test.jpg' alt=''><div class='imgDescription'><h4><span class='teal'>Sean Park</span><br/>Bass</h4></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='/img/members/basses/sean/sean3-MAIN-test.jpg' alt=''><div class='imgDescription'><h5><span class='teal'>Sean Park</span><br/>Bass</h5></div></div>";
               i = i + 1;
           </script>
 <!--
@@ -1406,7 +1413,7 @@ Keeping the github buttons for reference. Not necessary though.
     <p><br><br></p>
 
     <div class="container text-center">
-        <p>Copyright © Daniel Graf 2017</p>
+        <p>Copyright © Daniel Graf &amp; Sean Park 2017</p>
         
     </div>
 </footer>

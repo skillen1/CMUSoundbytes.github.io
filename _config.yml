@@ -30,7 +30,7 @@ force-https: True
 #############
 
 lang: "en"
-author: "Daniel Graf"
+author: "Daniel Graf & Sean Park"
 title: "Soundbytes"
 description: "Everything about the Carnegie Mellon Soundbytes. Fun times had by all."
 keywords: "soundbytes, carnegie, mellon, music, acapella"

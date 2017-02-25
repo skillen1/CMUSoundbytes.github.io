@@ -1,0 +1,25 @@
+#latest-post
+{
+	width: 100%;
+	background: red;
+}
+
+#latest-post
+table
+{
+	table-layout: fixed;
+	width: 100%;
+}
+
+#latest-post
+#image-cell
+{
+	width: 300px;
+}
+
+#latest-post
+#image-cell
+img
+{
+	border: none;
+}
