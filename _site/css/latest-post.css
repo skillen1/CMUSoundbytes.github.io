@@ -1,7 +1,12 @@
 #latest-post
 {
 	width: 100%;
-	background: red;
+	background: linear-gradient(
+                     rgba(0,0,0, .2), 
+                     rgba(0,0,0, .99)),
+                     url("../img/group/bhangra.jpg") no-repeat;
+    background-size: cover;
+
 }
 
 #latest-post
