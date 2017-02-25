@@ -8,14 +8,30 @@
 	.intro .intro-body #intro-content
 	{
 		width: 80%;
-		top: 20%;
+		top: 45%;
 	}
+
+	#about
+	{
+		padding-top: 175px;
+	}
+
 }
 
 @media screen and (max-width: 480px) {
+
+	.intro .intro-body #intro-content
+	{
+		width: 100%;
+		left: 0;
+		top: 20%;
+		margin-top: 35%;
+		text-align: center;
+	}
+
 	#about
 	{
-		padding-top: 150px;
+		text-align: center;
 	}
 }
 
