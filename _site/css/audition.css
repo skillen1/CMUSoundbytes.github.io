@@ -1,0 +1,24 @@
+.content-section
+{
+	padding: 10% 20% 0 20%;
+	text-align: left;
+}
+
+.content-section h3
+{
+	text-align: center;
+	margin-top: 25vh;
+	margin-bottom: 15vh;
+}
+
+.content-section h5
+{
+	margin-top: 8vh;
+	margin-bottom: 2vh;
+}
+
+.content-section p
+{
+	font-size: 1.3em;
+	text-align: left;
+}

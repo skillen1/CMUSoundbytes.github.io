@@ -1,0 +1,30 @@
+h1
+{
+    font-size: calc(12px + 3vw);;
+}
+
+h2
+{
+    font-size: calc(12px + 2vw);
+}
+
+h3
+{
+    font-size: calc(12px + 1.7vw);
+}
+
+h4
+{
+    font-size: calc(12px + 1.5vw);
+}
+
+h5
+{
+    font-weight: bold;
+    font-size: calc(12px + 1.1vw);
+}
+
+a, p
+{
+    font-size: calc(12px + 0.2vw);
+}
