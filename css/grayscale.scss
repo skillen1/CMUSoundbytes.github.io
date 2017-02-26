@@ -124,6 +124,8 @@ a {
         text-align: center;
         li {
             a {
+                padding-right: calc(1px + 1vw);
+                padding-left: calc(1px + 1vw);
                 -webkit-transition: background .3s ease-in-out;
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
