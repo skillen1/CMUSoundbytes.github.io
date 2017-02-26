@@ -271,18 +271,18 @@ members_list:
     name: 'Paul Rogozenski'
     section: 'Bass'
     pic: "/img/members/basses/paul/paul5-MAIN-test.jpg"
-  nikhil: 
-    name: 'Nikhil Nilakantan'
-    section: 'Bass'
-    pic: "/img/members/basses/nikhil/nikhil1-MAIN-test.jpg"
   jack: 
     name: 'Jack Urbanek'
     section: 'Bass'
     pic: "/img/members/basses/jack/jack1-MAIN-test.jpg"
   sean: 
     name: 'Sean Park'
-    section: 'Bass'
-    pic: "/img/members/basses/sean/sean3-MAIN-test.jpg"
+    section: 'Bass / Beatbox'
+    pic: "/img/members/basses/sean/sean3-MAIN-test.jpg"  
+  nikhil: 
+    name: 'Nikhil Nilakantan'
+    section: 'Bass / Beatbox'
+    pic: "/img/members/basses/nikhil/nikhil1-MAIN-test.jpg"
   
   
 # Exclusion list from the generated _site

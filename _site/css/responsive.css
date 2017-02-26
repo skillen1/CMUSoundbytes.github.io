@@ -1,5 +1,6 @@
 @media screen and (max-width: 768px) {
 
+
 	.intro
 	{
 		padding-top: 200px;
@@ -12,15 +13,32 @@
 	}
 
 	#latest-post
-	#image-cell
 	{
-		display: table-cell;
+		
+		padding-top: 0;
 	}
 
 	#latest-post
 	td
 	{
+		display: block;
 		text-align: center;
+	}
+
+	#latest-post
+	#image-cell
+	{
+		width: 100%;
+	}
+
+	#latest-post
+	#image-cell
+	img
+	{
+		border: none;
+		width: 40%;
+		float: none;
+		margin: 0 auto;
 	}
 
 }
