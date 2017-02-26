@@ -217,49 +217,15 @@
           <br><br><br>
           
 
-
-          <div id="container">
-            <div class="masonryImage">
-		      <img src="/img/largelogo.png" width="100" height="100" alt="">
-            </div>
-		
-            <div class="masonryImage">
-              <img src="/img/largelogo.png" width="200" height="200" alt="">
-            </div> 
-		
-            <div class="masonryImage">
-              <img src="/img/largelogo.png" width="300" height="300" alt="">
-            </div>
-          </div>
-   
-
-        <div>
-          <table id="posts">
-            <script>
-              var rowMax = 3;
-              if (screen.width < 800){
-                rowMax = 2;
-              }
-              var i = 0;
-              var table = document.getElementById("posts");
-            </script>
-            <tr>
-              
-                <script>
-                  if (i == 0) {
-                    var row = table.insertRow(table.length);
-                  }
-                  i = i + 1;
-                  if (i == rowMax) {
-                    i=0;
-                  }
-                </script>
-                <!-- EDIT THIS FOR THE LIST OF POSTS-->
+          
+          <div id="containertest" data-masonry='{ "itemSelector": ".blocktest", "columnWidth": ".blocktest" }'>  
+            
+              <!-- EDIT THIS FOR THE LIST OF POSTS-->
 
 
 
 <!-- Post List Start -->
-<td>
+<div class="blocktest">
   <div class="imgWrap">
     <img class="img-responsive center-block fourofour" src="/img/largelogo.png" alt="">
     <div class="imgDescription">
@@ -271,8 +237,7 @@
       </h4>
     </div>
   </div>
-</td>
-
+</div>
 <!--
 <h4 align="left">
   <strong>11 Jan 2017</strong>
@@ -298,22 +263,13 @@
 
 <!-- Post List End -->
 
-              
-                <script>
-                  if (i == 0) {
-                    var row = table.insertRow(table.length);
-                  }
-                  i = i + 1;
-                  if (i == rowMax) {
-                    i=0;
-                  }
-                </script>
-                <!-- EDIT THIS FOR THE LIST OF POSTS-->
+            
+              <!-- EDIT THIS FOR THE LIST OF POSTS-->
 
 
 
 <!-- Post List Start -->
-<td>
+<div class="blocktest">
   <div class="imgWrap">
     <img class="img-responsive center-block fourofour" src="/img/largelogo.png" alt="">
     <div class="imgDescription">
@@ -325,8 +281,7 @@
       </h4>
     </div>
   </div>
-</td>
-
+</div>
 <!--
 <h4 align="left">
   <strong>11 Jan 2017</strong>
@@ -352,22 +307,13 @@
 
 <!-- Post List End -->
 
-              
-                <script>
-                  if (i == 0) {
-                    var row = table.insertRow(table.length);
-                  }
-                  i = i + 1;
-                  if (i == rowMax) {
-                    i=0;
-                  }
-                </script>
-                <!-- EDIT THIS FOR THE LIST OF POSTS-->
+            
+              <!-- EDIT THIS FOR THE LIST OF POSTS-->
 
 
 
 <!-- Post List Start -->
-<td>
+<div class="blocktest">
   <div class="imgWrap">
     <img class="img-responsive center-block fourofour" src="/img/largelogo.png" alt="">
     <div class="imgDescription">
@@ -379,8 +325,7 @@
       </h4>
     </div>
   </div>
-</td>
-
+</div>
 <!--
 <h4 align="left">
   <strong>11 Jan 2017</strong>
@@ -406,22 +351,13 @@
 
 <!-- Post List End -->
 
-              
-                <script>
-                  if (i == 0) {
-                    var row = table.insertRow(table.length);
-                  }
-                  i = i + 1;
-                  if (i == rowMax) {
-                    i=0;
-                  }
-                </script>
-                <!-- EDIT THIS FOR THE LIST OF POSTS-->
+            
+              <!-- EDIT THIS FOR THE LIST OF POSTS-->
 
 
 
 <!-- Post List Start -->
-<td>
+<div class="blocktest">
   <div class="imgWrap">
     <img class="img-responsive center-block fourofour" src="/img/largelogo.png" alt="">
     <div class="imgDescription">
@@ -433,8 +369,7 @@
       </h4>
     </div>
   </div>
-</td>
-
+</div>
 <!--
 <h4 align="left">
   <strong>11 Jan 2017</strong>
@@ -460,22 +395,13 @@
 
 <!-- Post List End -->
 
-              
-                <script>
-                  if (i == 0) {
-                    var row = table.insertRow(table.length);
-                  }
-                  i = i + 1;
-                  if (i == rowMax) {
-                    i=0;
-                  }
-                </script>
-                <!-- EDIT THIS FOR THE LIST OF POSTS-->
+            
+              <!-- EDIT THIS FOR THE LIST OF POSTS-->
 
 
 
 <!-- Post List Start -->
-<td>
+<div class="blocktest">
   <div class="imgWrap">
     <img class="img-responsive center-block fourofour" src="/img/largelogo.png" alt="">
     <div class="imgDescription">
@@ -487,8 +413,7 @@
       </h4>
     </div>
   </div>
-</td>
-
+</div>
 <!--
 <h4 align="left">
   <strong>11 Jan 2017</strong>
@@ -514,10 +439,13 @@
 
 <!-- Post List End -->
 
-              
-            </tr>
-          </table>
-        </div>
+            
+          </div>
+             
+
+          
+   
+ 
 
         
 <!-- Pagination Links Start -->
@@ -541,33 +469,12 @@
 <!-- Pagination Links End -->
 
 
-          
-<!--
-        <form action="/search.html" method="get">
-          <label for="search-box">Search</label>
-          <input type="text" id="search-box" name="query">
-          <input type="submit" value="search">
-        </form>
--->
+
         </div>
       </div>
     </section>
 
-    <script src="../js/jquery-3.1.1.min.js"></script>
-    <script src="../js/masonry.pkgd.min.js"></script>
-<!--
-    <script>
-      $(function(){
- 
-        var $container = $('#container');
-        $container.imagesLoaded( function(){
-          $container.masonry({
-            itemSelector : '.masonryImage'
-          });
-        });
-      });
-    </script>
--->
+
     <!-- Footer Start -->
 
 <footer>
@@ -590,6 +497,11 @@
 
 <!-- Footer End -->
 
+
+    
+    
+    <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/masonry.pkgd.js"></script>
 
     
 <!-- Javascript Start -->
@@ -639,6 +551,11 @@ function addTohistory() {
   
 
   
+
+
+    <!-- Blog Masonry Grid Setup   -->
+    
+
 
     <!-- Blog Gesture Navigation Start -->
 
@@ -692,7 +609,6 @@ function addTohistory() {
 
 
 <!-- Javascript End -->
-
 
   </body>
 </html><!-- Blog Layout End -->
