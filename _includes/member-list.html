@@ -17,8 +17,8 @@
           var i = 0;
           var table = document.getElementById("memberTable");
         </script>
-        {% for m in site.members_list %}
-          <script>
+          {% for m in site.members_list %}
+            <script>
               if (i == 0) {
                 var row = table.insertRow(table.length);
               }
@@ -27,27 +27,21 @@
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='{{site.baseurl}}{{m[1].pic}}' alt=''><div class='imgDescription'><h5><span class='teal'>{{m[1].name}}</span><br/>{{m[1].section}}</h5></div></div>";
-              i = i + 1;
-          </script>
-<!--
-            <td>
-                <div class="imgWrap">
-                    <img class="img-responsive center-block fourofour" src="{{site.baseurl}}{{m[1].pic}}" alt="">
-                    <p class="imgDescription">{{m[1].name}},{{m[1].section}}.</p>
-                    <p class="imgDescription" id="test"></p>
-                    <script>
-                        document.getElementById("test").innerHTML = i;
-                    </script>
-                </div>
-            </td>
--->
-            <script>
+              cell1.innerHTML = "<div class='imgWrap'><a data-imagelightbox='member-image'><img class='img-responsive center-block fourofour' src='{{site.baseurl}}{{m[1].pic}}' alt=''></a><div class='imgDescription'><h5><span class='teal'>{{m[1].name}}</span><br/>{{m[1].section}}</h5></div></div>";
+              i++;
               if (i == rowMax) {
                 i=0;
               }
             </script>
           {% endfor %}
+          <script type="text/javascript">
+            $( 'a[data-imagelightbox="member-image"]' ).imageLightbox(
+            {
+              onLoadStart:  function() { activityIndicatorOn(); },
+              onLoadEnd:    function() { activityIndicatorOff(); },
+              onEnd:      function() { activityIndicatorOff(); }
+            });
+          </script>
           
         </table>
       </div>

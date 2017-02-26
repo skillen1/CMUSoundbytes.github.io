@@ -19,7 +19,7 @@ table
 #latest-post
 #image-cell
 {
-	width: 300px;
+	width: 350px;
 }
 
 #latest-post
@@ -27,4 +27,6 @@ table
 img
 {
 	border: none;
+	width: 90%;
+	float: right;
 }
