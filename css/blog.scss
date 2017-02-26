@@ -7,12 +7,14 @@
 div.containertest {
   background: #444;
   padding: 10px;
+  width: 50%;
+  margin: auto;
 }
 
 div.blocktest {
   background: #fff;
   color: black;
-  display: inline-block;
+  display: block;
   width: 200px;
   padding: 10px;
   margin: 10px;

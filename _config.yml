@@ -185,8 +185,8 @@ pages_list:
   About: 'about'
   Performances: 'latest-post'
   Members: 'member-list'
-  Audition: 'audition'
   Contact: 'contact'
+  Audition: 'audition'
   
   
 # List of active members

@@ -4,17 +4,19 @@
 
 <!-- Post List Start -->
 <div class="blocktest">
-  <div class='imgWrap'>
-    <img class='img-responsive center-block fourofour' src='{{ post.image }}' alt=''>
-    <div class='imgDescription'>
-      <h4>
-        <span class='teal'>
-          {{post.title}}
-        </span><br/>
-        {{post.category}}
-      </h4>
-    </div>
-  </div>
+  <a class="category" href="{{site.baseurl}}{{post.url}}">
+    <div class='imgWrap'>
+      <img class='img-responsive center-block fourofour' src='{{ post.image }}' alt=''>
+        <div class='imgDescription'>
+          <h4>
+            <span class='teal'>
+              {{post.title}}
+            </span><br/>
+            {{post.category}}
+          </h4>
+        </div>
+      </div>
+  </a>
 </div>
 <!--
 <h4 align="left">
