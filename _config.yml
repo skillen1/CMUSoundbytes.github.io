@@ -43,6 +43,7 @@ favicon: "/img/soundbytesfavicon2.png"
 black-favicon: "/img/largelogo.png"
 
 # Header Pics
+audition-background-img: "../img/group/audition-group.jpg"
 blog-background-img: "../img/group/blog_group.jpg"
 background-img: "../img/group/mainphoto.jpg"
 
@@ -97,7 +98,7 @@ enable-gesture-navigation: True
 
 post-preview-words: 96
 
-paginate: 5
+paginate: 10
 
 email-share: True
 fb-share: True
@@ -145,7 +146,7 @@ email: "cmusoundbytes@gmail.com"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "Daniel Graf is an awesome person. He is a senior, and by the time you read this, he will probably be gone."
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/members/basses/daniel/daniel2-test.jpg"
 
 ##################
 # Social Buttons #

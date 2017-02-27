@@ -14,10 +14,21 @@ div.containertest {
 div.blocktest {
   background: #fff;
   color: black;
-  display: block;
-  width: 200px;
+  display: inline-block;
   padding: 10px;
   margin: 10px;
+}
+
+div.blocktest-high {
+  width: 300px;
+}
+
+div.blocktest-medium {
+  width: 200px;
+}
+
+div.blocktest-low {
+  width: 100px;
 }
 
 .intro {

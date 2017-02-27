@@ -1,42 +1,17 @@
-<!-- EDIT THIS FOR THE LIST OF POSTS-->
-
-
-
 <!-- Post List Start -->
-<div class="blocktest">
+<div class="blocktest blocktest-{{ post.blog-priority }}">
   <a class="category" href="{{site.baseurl}}{{post.url}}">
     <div class='imgWrap'>
       <img class='img-responsive center-block fourofour' src='{{ post.image }}' alt=''>
         <div class='imgDescription'>
-          <h4>
+          <h6>
             <span class='teal'>
               {{post.title}}
             </span><br/>
             {{post.category}}
-          </h4>
+          </h6>
         </div>
       </div>
   </a>
 </div>
-<!--
-<h4 align="left">
-  <strong>{{ post.date | date_to_string }}</strong>
-  <small>.
-    <a class="category" href="{{site.baseurl}}/categories/{{ post.category | downcase }}.html">
-      {{ post.category }}
-    </a>
-  .</small>
-  <br class="visible-xs-block">
-  <a href="{{site.baseurl}}{{post.url}}">
-    <strong>{{ post.title }}</strong>
-  </a>
-  <img src="{{ post.image }}" width="34" height="30" alt="">
-  <small>
-    {{post.content}}
-  </small>
-  <br class="visible-xs-block">
-  <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
-</h4>
--->
-
 <!-- Post List End -->
