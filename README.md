@@ -1,9 +1,11 @@
+# CARNEGIE MELLON SOUNDBYTES WEBSITE STUFF
+
 Hey tech-savvy Soundbyte!! (or anyone else who wandered onto this page)
 My name is Daniel and I (like you) got wrapped into creating the Soundbytes website.
 
 This page may seem like a lot, so I'm gonna try and walk you through this.
 
------STARTING COMMENTS-----
+# STARTING COMMENTS
 The main things that you'll *probably* have to work with are the following folders (barring any tragedies, but don't let that stop you!):
 
 - _config.yml
@@ -13,9 +15,10 @@ The main things that you'll *probably* have to work with are the following folde
 
 Those should probably be the MAIN ones, but if you have questions or anything, feel free to email me or contact me or something. Someone in the group will probably know how to do this (hopefully).
 
------TERMINAL/SERVER STUFF-----
+# TERMINAL/SERVER STUFF
 
---Before Anything (with comments)--
+## Before Anything (with comments)
+
 (run these in terminal)
 ```shell
 bundle install
@@ -39,7 +42,8 @@ bundle install
   - If either of those have errors, I'm sorry. I can't help you. Try running bundle install again? Google?
   
   
---Before Anything--
+## Before Anything
+
 ```shell
 bundle install
 ./scripts/install
@@ -47,7 +51,8 @@ bundle install
 ./scripts/generate-tags
 ```
 
---Running the Site Locally--
+## Running the Site Locally
+
 ```shell
 ./scripts/serve
 ```
@@ -57,7 +62,8 @@ NOTES:
 - Terminal is your friend. It will tell you if it can't find stuff.
 - Google Chrome Inspector is also your friend when messing with CSS. Sean is smarter than me with that and will provide you with actual ideas. I will tell you to just Google things.
 
---Updating the Site--
+## Updating the Site
+
 - Git stuff (you should really know how to use this, seeing as you probably downloaded it)
 ```shell
 git add .
@@ -68,9 +74,10 @@ git push
 
 - IMPORTANT NOTE: Using git push is terrible etiquette and you should go through the process of making pull requests but we're lazy. Please please PLEASE only push if you are 100% sure things work. Otherwise we'll have to roll the version back and you will be forever shamed.
 
------ACTUAL EDITS-----
+# ACTUAL EDITS
 
---Member Editing--
+## Member Editing
+
 - All of this will happen in your _config.yml file. If you scroll down, you'll see a layout similar to this:
 ```shell
 daniel: 
@@ -86,12 +93,14 @@ If you follow this layout for anyone, everything should be fine. It's all organi
   - Save as JPEG
   - When it brings up JPEG Options, set Quality to 7: (should make the size around 70K on the side. Adjust accordingly)
   
---Post Making--
+## Post Making
+
 - This one is pretty straightforward.
   - You can use their script (look in scripts and learn) but I tend to just copy&paste an old one and edit things
   - IMPORTANT NOTE: The name of the file must be 'YYYY-MM-DD-post_name.md' because things break otherwise and it's sad.
 
---CSS Editing--
+## CSS Editing
+
 - You can make sass files and it's great. All of these files (if you make new ones) must be started with:
 ```shell
 ---
@@ -100,7 +109,7 @@ If you follow this layout for anyone, everything should be fine. It's all organi
 otherwise it won't work. Trust me, I've tried debugging that for an hour or two.
 
 
---USEFUL LINKS--
+# USEFUL LINKS
 
 - Jekyll: https://jekyllrb.com/
 - Jekyll Themes Used:
