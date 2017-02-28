@@ -21,7 +21,7 @@
   <link href="{{site.baseurl}}/css/timeline.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/latest-post.css" rel="stylesheet">
   {% endif %}
-  {% if page.section-type == "blog" %}
+  {% if page.section-type == "blog" or page.section-type == "category" or page.section-type == "tag" %}
   <link href="{{site.baseurl}}/css/blog.css" rel="stylesheet">
   {% endif %}
   {% if page.section-type == "audition" %}

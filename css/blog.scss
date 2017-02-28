@@ -19,6 +19,29 @@ div.blocktest {
   margin: 10px;
 }
 
+div.imgWrap {
+  border: 0px solid black;
+}
+
+footer.post-description {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  background-color: black;
+}
+
+.imgDescription h6
+{
+    font-size: calc(12px + 0.2vw);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.fourofour {
+  border: 1px solid black !important;
+}
+
 div.blocktest-high {
   width: calc(300px + 0vw);
 }
