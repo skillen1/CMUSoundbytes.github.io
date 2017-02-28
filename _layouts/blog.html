@@ -23,7 +23,7 @@
           <br><br><br>
           {{ page.content | markdownify }}
           
-          <div id="containertest" data-masonry='{ "itemSelector": ".blocktest", "columnWidth": ".blocktest", "fitWidth": true, "originLeft": false }'>  
+          <div id="containertest" >  
             {% for post in paginator.posts %}
               {% include post-list.html%}
             {% endfor %}

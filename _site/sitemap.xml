@@ -18,16 +18,11 @@
     
   
     
-      <url>
-        <loc>http://localhost:4000/blog/</loc>
-        
-          
-          
-          
-          <priority>1.0</priority>
-          
-        
-       </url>
+  
+    
+  
+    
+  
     
   
     
@@ -41,6 +36,27 @@
           
         
        </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/blog/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -72,63 +88,45 @@
   
   
     <url>
-      <loc>http://localhost:4000/test/2017/01/11/test-post.html</loc>
+      <loc>http://localhost:4000/performance/2016/12/13/amac.html</loc>
       
-        <lastmod>2017-01-11T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/test/2017/01/11/test-post-copy.html</loc>
-      
-        <lastmod>2017-01-11T00:00:00-05:00</lastmod>
+        <lastmod>2016-12-13T00:00:00-05:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/test/2017/01/11/test-post-copy-6.html</loc>
+      <loc>http://localhost:4000/performance/2016/11/19/bhangra.html</loc>
       
-        <lastmod>2017-01-11T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/test/2017/01/11/test-post-copy-5.html</loc>
-      
-        <lastmod>2017-01-11T00:00:00-05:00</lastmod>
+        <lastmod>2016-11-19T00:00:00-05:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/test/2017/01/11/test-post-copy-4.html</loc>
+      <loc>http://localhost:4000/performance/2016/10/19/billy-porter.html</loc>
       
-        <lastmod>2017-01-11T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/test/2017/01/11/test-post-copy-3.html</loc>
-      
-        <lastmod>2017-01-11T00:00:00-05:00</lastmod>
+        <lastmod>2016-10-19T00:00:00-04:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/test/2017/01/11/test-post-copy-2.html</loc>
+      <loc>http://localhost:4000/performance/2016/10/11/acapittsburgh2016.html</loc>
       
-        <lastmod>2017-01-11T00:00:00-05:00</lastmod>
+        <lastmod>2016-10-11T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/group/2016/09/22/newbytes-2016.html</loc>
+      
+        <lastmod>2016-09-22T00:00:00-04:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>

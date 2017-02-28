@@ -7,94 +7,66 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Test Post</title>
+				<title>Almost Midnight A Cappella Fall '16</title>
 				
 				
-					<description>&lt;p&gt;Test-Double Test
-:smile:&lt;/p&gt;
+					<description>&lt;p&gt;We are always happy to host AMAC, and provide campus with a well deserved break from finals. It was a great time showcasing lots of our arrangements, new and old, getting some almost midnight breakfast, taking our classic elevator selfie and hosting all of our friends in our campus a cappella groups. We wish everyone a safe and restful winter break and can’t wait for all of the exciting things happening in the spring semester! &amp;lt;3&lt;/p&gt;
 </description>
 				
-				<pubDate>Wed, 11 Jan 2017 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/test/2017/01/11/test-post.html</link>
-				<guid isPermaLink="true">http://localhost:4000/test/2017/01/11/test-post.html</guid>
+				<pubDate>Tue, 13 Dec 2016 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/performance/2016/12/13/amac.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2016/12/13/amac.html</guid>
 			</item>
 		
 			<item>
-				<title>Test Post</title>
+				<title>Bhangra in the Burgh</title>
 				
 				
-					<description>&lt;p&gt;Test 1
-:smile:&lt;/p&gt;
+					<description>&lt;p&gt;We had the amazing opportunity to perform as an exhibition act for Bhangra in the Burgh 2016! Bhangra in the Burgh is a platform for top Bhangra (Indian folk dance) teams from across the nation to showcase their talent in a colorful exhibition of the energy and excitement that Bhangra represents. It is one of the largest student-run events in Pittsburgh and never fails to raise a great deal of money for charity, and we are so grateful to have been a part of it.&lt;/p&gt;
+
 </description>
 				
-				<pubDate>Wed, 11 Jan 2017 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/test/2017/01/11/test-post-copy.html</link>
-				<guid isPermaLink="true">http://localhost:4000/test/2017/01/11/test-post-copy.html</guid>
+				<pubDate>Sat, 19 Nov 2016 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/performance/2016/11/19/bhangra.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2016/11/19/bhangra.html</guid>
 			</item>
 		
 			<item>
-				<title>Test Post</title>
+				<title>Performing with Billy Porter!</title>
 				
 				
-					<description>&lt;p&gt;Test 6
-:smile:&lt;/p&gt;
+					<description>&lt;p&gt;Some of our group members got the chance to sing with Billy Porter, CMU alum and original Broadway cast member of the show Kinky Boots! Individuals from all of our campus a cappella groups came together to perform “Fight Song”, by Rachel Platten with Billy for an event held by individuals involved in the Clinton-Kane Campaign.&lt;/p&gt;
 </description>
 				
-				<pubDate>Wed, 11 Jan 2017 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/test/2017/01/11/test-post-copy-6.html</link>
-				<guid isPermaLink="true">http://localhost:4000/test/2017/01/11/test-post-copy-6.html</guid>
+				<pubDate>Wed, 19 Oct 2016 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/performance/2016/10/19/billy-porter.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2016/10/19/billy-porter.html</guid>
 			</item>
 		
 			<item>
-				<title>Test Post</title>
+				<title>Acapittsburgh 2016</title>
 				
 				
-					<description>&lt;p&gt;Test 5
-:smile:&lt;/p&gt;
+					<description>&lt;p&gt;Our first performance of the semester (and the first performance with NewBytes!) was at Acapittsburgh 2016, CMU Counterpoints annual Charity Concert. The theme of the year was Music as a Universal Language. It always is an incredible experience to perform with all of Carnegie Mellon’s a cappella groups, we had a great time being the first group up and sharing the stage with everyone!&lt;/p&gt;
+
 </description>
 				
-				<pubDate>Wed, 11 Jan 2017 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/test/2017/01/11/test-post-copy-5.html</link>
-				<guid isPermaLink="true">http://localhost:4000/test/2017/01/11/test-post-copy-5.html</guid>
+				<pubDate>Tue, 11 Oct 2016 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/performance/2016/10/11/acapittsburgh2016.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2016/10/11/acapittsburgh2016.html</guid>
 			</item>
 		
 			<item>
-				<title>Test Post</title>
+				<title>New Bytes!</title>
 				
 				
-					<description>&lt;p&gt;Test 4
-:smile:&lt;/p&gt;
+					<description>&lt;p&gt;After a long week of auditions and callbacks, we are so excited to welcome in the NewBytes of Fall 2016!&lt;/p&gt;
+
 </description>
 				
-				<pubDate>Wed, 11 Jan 2017 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/test/2017/01/11/test-post-copy-4.html</link>
-				<guid isPermaLink="true">http://localhost:4000/test/2017/01/11/test-post-copy-4.html</guid>
-			</item>
-		
-			<item>
-				<title>Test Post</title>
-				
-				
-					<description>&lt;p&gt;Test 3
-:smile:&lt;/p&gt;
-</description>
-				
-				<pubDate>Wed, 11 Jan 2017 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/test/2017/01/11/test-post-copy-3.html</link>
-				<guid isPermaLink="true">http://localhost:4000/test/2017/01/11/test-post-copy-3.html</guid>
-			</item>
-		
-			<item>
-				<title>Test Post</title>
-				
-				
-					<description>&lt;p&gt;Test 2
-:smile:&lt;/p&gt;
-</description>
-				
-				<pubDate>Wed, 11 Jan 2017 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/test/2017/01/11/test-post-copy-2.html</link>
-				<guid isPermaLink="true">http://localhost:4000/test/2017/01/11/test-post-copy-2.html</guid>
+				<pubDate>Thu, 22 Sep 2016 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/group/2016/09/22/newbytes-2016.html</link>
+				<guid isPermaLink="true">http://localhost:4000/group/2016/09/22/newbytes-2016.html</guid>
 			</item>
 		
 	</channel>

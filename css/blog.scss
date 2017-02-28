@@ -20,15 +20,15 @@ div.blocktest {
 }
 
 div.blocktest-high {
-  width: 300px;
+  width: calc(300px + 0vw);
 }
 
 div.blocktest-medium {
-  width: 200px;
+  width: calc(250px + 0vw);
 }
 
 div.blocktest-low {
-  width: 100px;
+  width: calc(200px + 0vw);
 }
 
 .intro {

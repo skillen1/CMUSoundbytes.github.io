@@ -32,6 +32,7 @@
                 <li>
                     <a href="{{site.baseurl}}/audition"> {{p[0]}} </a>
                 </li>
+            
             {% else %}
                 <li>
                     <a class="page-scroll" href="#{{ p[1] }}"> {{p[0]}} </a>
@@ -44,11 +45,7 @@
           {% for p in site.pages_list %}
             <li>
             {% if p[1] == "latest-post" %}
-              {% if page.url == "/blog/index.html" | prepend: {{site.baseurl}} %}
-                <a class="page-scroll" href="#page"> {{p[0]}} </a>
-              {% else %}
-                <a href="{{site.baseurl}}/blog/"> {{p[0]}} </a>
-              {% endif %}
+              <a href="{{site.baseurl}}/blog/"> {{p[0]}} </a>
             {% else %}
                 {% if p[1] == "audition" %}
                     <a href="{{site.baseurl}}/audition"> {{p[0]}} </a>
