@@ -24,18 +24,32 @@ div.imgWrap {
 }
 
 footer.post-description {
-  padding-top: 0px;
-  padding-bottom: 50px;
+  padding: 3%;
   background-color: black;
+  color: $font-color;
+}
+
+.imgDescription {
+  visibility: visible;
+  opacity: 1;
+  background: none;
+  color: none;
 }
 
 .imgDescription h6
 {
+    margin-bottom: 0;
+    background-color: black;
     font-size: calc(12px + 0.2vw);
     position: absolute;
-    bottom: 0;
+    top: 100%;
     text-align: center;
     width: 100%;
+}
+
+.imgWrap:hover .imgDescription {
+  background: rgba(255,255,255, 0.2);
+  color: #fff;
 }
 
 .fourofour {
