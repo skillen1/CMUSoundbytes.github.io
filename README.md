@@ -1,4 +1,4 @@
-# CARNEGIE MELLON SOUNDBYTES WEBSITE STUFF
+# **CARNEGIE MELLON SOUNDBYTES WEBSITE STUFF**
 
 Hey tech-savvy Soundbyte!! (or anyone else who wandered onto this page)
 My name is Daniel and I (like you) got wrapped into creating the Soundbytes website.
@@ -116,3 +116,18 @@ otherwise it won't work. Trust me, I've tried debugging that for an hour or two.
   - [{ Personal } Theme](https://github.com/PanosSakkos/personal-jekyll-theme)
     - (Made mainly from the [Grayscale Theme](https://github.com/jeromelachaud/grayscale-theme) and other stuff, look at the { Personal } documentation.
 - [Emoji Cheat Sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/) (because we can support that :smile: ) 
+
+# CONTACTS
+
+## Coding
+[Daniel Graf](https://github.com/grafmark59) - Will answer questions, but very sarcastically. Mastermind behind everything.
+[Sean Park](https://spark33.github.io/) - Put no work into this README so I can call him whatever I want. 
+
+## Pictures
+[Toby Donoghue](http://octoberlane.com/) - Took the wonderful pictures on our home page. Without her, you'll be truly lost.
+
+## Posts & Design
+[Shreya Desikan](https://www.linkedin.com/in/shreya-desikan-9a52399b) - Took care of a lot of the design work (logo) and wrote a lot of the website content! Without her, you'll __also__ be truly lost.
+
+## Website Ownership & Other Misc Stuff
+[Paul Rogozenski]() - Has a grasp of a lot of the formal stuff (website ownership mainly)
