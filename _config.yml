@@ -31,7 +31,7 @@ force-https: True
 
 lang: "en"
 author: "Daniel Graf & Sean Park"
-title: "Carnegie Mellon Soundbytes"
+title: "Soundbytes"
 description: "Singing in Scheme Since 1996. Known for their fierce color schemes and sultry style, Soundbytes pride themselves on their infectious performance groove - bringing their passion and sense of fun to any song that they perform. Founded in 1996,  Soundbytes was the first secular co-ed a cappella group on Carnegie Mellon University’s campus."
 keywords: "soundbytes, carnegie, mellon, university, music, a cappella, cmu"
 favicon: "/img/soundbytesfavicon2.png"
