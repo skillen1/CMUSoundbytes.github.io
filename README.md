@@ -121,6 +121,7 @@ otherwise it won't work. Trust me, I've tried debugging that for an hour or two.
 
 ## Coding
 [Daniel Graf](https://github.com/grafmark59) - Will answer questions, but very sarcastically. Mastermind behind everything.
+
 [Sean Park](https://spark33.github.io/) - Put no work into this README so I can call him whatever I want. 
 
 ## Pictures
@@ -130,4 +131,4 @@ otherwise it won't work. Trust me, I've tried debugging that for an hour or two.
 [Shreya Desikan](https://www.linkedin.com/in/shreya-desikan-9a52399b) - Took care of a lot of the design work (logo) and wrote a lot of the website content! Without her, you'll __also__ be truly lost.
 
 ## Website Ownership & Other Misc Stuff
-[Paul Rogozenski]() - Has a grasp of a lot of the formal stuff (website ownership mainly)
+[Paul Rogozenski](https://www.facebook.com/paul.ringozenski) - Has a grasp of a lot of the formal stuff (website ownership mainly)
