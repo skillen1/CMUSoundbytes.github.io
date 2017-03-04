@@ -16,7 +16,17 @@
               <td colspan="2">
 
                 <a href="{{site.baseurl}}{{ post.url }}"><h4>{{post.title}}</h4></a>
-                <small>{{ post.date | date_to_string }}</small>
+                <small>
+                  {{ post.date | date: "%B " }}
+                  {% assign day = post.date | date: "%-d"  %}
+                  {% case day %}
+                    {% when '1' or '21' or '31' %}{{ day }}st
+                    {% when '2' or '22' %}{{ day }}nd
+                    {% when '3' or '23' %}{{ day }}rd
+                    {% else %}{{ day }}th
+                  {% endcase %}
+                  {{ post.date | date: ", %Y" }}
+                </small>
 
                 <p>
                   {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
