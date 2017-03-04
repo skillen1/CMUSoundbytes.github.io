@@ -27,21 +27,14 @@
               //var cell2 = row.insertCell(1);
               
               // Add some text to the new cells:
-              cell1.innerHTML = "<div class='imgWrap'><a data-imagelightbox='member-image'><img class='img-responsive center-block fourofour' src='{{site.baseurl}}{{m[1].pic}}' alt=''></a><div class='imgDescription'><h5><span class='teal'>{{m[1].name}}</span><br/>{{m[1].section}}</h5></div></div>";
+              cell1.innerHTML = "<div class='imgWrap'><img class='img-responsive center-block fourofour' src='{{site.baseurl}}{{m[1].pic}}' alt=''><div class='imgDescription'><h5><span class='teal'>{{m[1].name}}</span><br/>{{m[1].section}}</h5></div></div>";
               i++;
               if (i == rowMax) {
                 i=0;
               }
             </script>
           {% endfor %}
-          <script type="text/javascript">
-            $( 'a[data-imagelightbox="member-image"]' ).imageLightbox(
-            {
-              onLoadStart:  function() { activityIndicatorOn(); },
-              onLoadEnd:    function() { activityIndicatorOff(); },
-              onEnd:      function() { activityIndicatorOff(); }
-            });
-          </script>
+          
           
         </table>
       </div>
