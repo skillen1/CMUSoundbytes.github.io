@@ -17,25 +17,31 @@
 
           {% include swipe-instructions.html %}
 
-          <h1><strong>{{ page.title }}</strong></h1>
-          <h4>
-            <strong>{{ page.date | date_to_string }}</strong>
+          <h1>
+            <strong>{{ page.title }}</strong>
             <small>
-              . category:
-              <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
-                {{ page.category }}
-              </a>.
-<!--              <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>-->
-              <br />
+              <br>
               {% for tag in page.tags %}
                 <a class="tag" href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>
               {% endfor %}
             </small>
-          </h4>
+          </h1>
+          <h5>
+            <small>
+              {% assign day = page.date | date: "%B %-d"  %}
+              {% case day %}
+                {% when '1' or '21' or '31' %}{{ day }}st
+                {% when '2' or '22' %}{{ day }}nd
+                {% when '3' or '23' %}{{ day }}rd
+              {% else %}{{ day }}th
+              {% endcase %}
+{{ page.date | date: ", %Y" }}
+            </small>
+            
+          </h5>
 
           {{ page.content | markdownify }}
 
-          {% include share.html %}
 
           {% if jekyll.environment == "production" %}
             {% include comments.html %}
@@ -43,15 +49,6 @@
 
 
           <hr />
-
-          {% if site.author_blurb %}
-          <div class="author row">
-            <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
-            <p class="col-xs-8 col-sm-9 col-md-10">
-              {{ site.author_blurb }}
-            </p>
-          </div>
-          {% endif%}
         </div>
       </div>
     </section>

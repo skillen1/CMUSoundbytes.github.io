@@ -1,0 +1,41 @@
+---
+---
+
+@import "variables";
+@import "mixins";
+
+.content-section
+{
+	padding: 5% 10% 0 10%;
+	text-align: center;
+}
+
+.content-section h3
+{
+	text-align: center;
+	margin-top: 25vh;
+	margin-bottom: 15vh;
+}
+
+.content-section h5
+{
+	margin-top: 2vh;
+	margin-bottom: 8vh;
+    text-align: left;
+}
+
+.content-section p
+{
+    margin: 2vh;
+	font-size: 1.3em;
+	text-align: left;
+}
+
+.content-section img
+{
+    margin-top: 4vh;
+	margin-bottom: 2vh;
+}
+.titlepic {
+  width: 200%;
+}

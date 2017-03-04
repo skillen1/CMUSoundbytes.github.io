@@ -4,6 +4,67 @@
 @import "variables";
 @import "mixins";
 
+//div.containertest {
+//  background: #444;
+//  padding: 10px;
+//  width: 50%;
+//  margin: auto;
+//}
+//
+//div.blocktest {
+//  background: #fff;
+//  color: black;
+//  display: inline-block;
+//  padding: 10px;
+//  margin: 10px;
+//  overflow: hidden;
+//}
+//
+//div.imgWrap {
+//  border: 0px solid black;
+//  min-height: 200px;
+//  max-height: 200px;
+//  background-color: black;
+//  padding-top: 10%;
+//}
+//
+//div.imgWrap img {
+//  border: 0px solid black;
+//  height: auto;
+//  max-width: 100%;
+//}
+//footer.post-description {
+//  padding: 3%;
+//  background-color: black;
+//  color: $font-color;
+//  max-height: 10%;
+//}
+//
+//
+//.imgDescription {
+//  visibility: visible;
+//  opacity: 1;
+//  background: none;
+//  color: none;
+//}
+//
+//.imgDescription h6
+//{
+//    margin-bottom: 0;
+//    background-color: black;
+//    font-size: calc(12px + 0.2vw);
+//    position: absolute;
+//    top: 100%;
+//    text-align: center;
+//    width: 100%;
+//}
+//
+//.imgWrap:hover .imgDescription {
+//  background: rgba(255,255,255, 0.2);
+//  color: #fff;
+//  position: relative;
+//}
+
 div.containertest {
   background: #444;
   padding: 10px;
@@ -51,21 +112,23 @@ footer.post-description {
   background: rgba(255,255,255, 0.2);
   color: #fff;
 }
-
 .fourofour {
   border: 1px solid black !important;
 }
 
 div.blocktest-high {
-  width: calc(300px + 0vw);
+  width: calc(250px + 0vw);
+  
 }
 
 div.blocktest-medium {
   width: calc(250px + 0vw);
+  
 }
 
 div.blocktest-low {
-  width: calc(200px + 0vw);
+  width: calc(250px + 0vw);
+  
 }
 
 .intro {

@@ -1,8 +1,9 @@
 <!-- Footer Start -->
 
 <footer>
-
-    {% include social-buttons.html %}
+    {% if page.section-type != "index" %}
+      {% include social-buttons.html %}
+    {% endif %}
 
     <p><br><br></p>
 
