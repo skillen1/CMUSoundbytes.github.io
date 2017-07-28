@@ -223,10 +223,10 @@ members_list:
     name: 'Sarah Karp'
     section: 'Alto'
     pic: "/img/members/altos/sarah/sarah1-MAIN-test.jpg"
-  angela: 
-    name: 'Angela Yoo'
-    section: 'Alto'
-    pic: "/img/members/altos/angela/angela2-MAIN-test.jpg"
+  # angela: 
+  #   name: 'Angela Yoo'
+  #   section: 'Alto'
+  #   pic: "/img/members/altos/angela/angela2-MAIN-test.jpg"
   christina: 
     name: 'Christina Cabana'
     section: 'Alto'
