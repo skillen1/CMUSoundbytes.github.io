@@ -7,6 +7,20 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>SeniorBytes 2017</title>
+				
+				
+					<description>&lt;p&gt;&lt;img class=&quot;titlepic&quot; src=&quot;/img/posts/2017/Seniors17.jpg&quot; width=&quot;30%&quot; /&gt;
+Tomorrow is our last concert of the year, Almost Midnight A Cappella! We are really excited to sing for you with all of the other a cappella groups on campus and hopefully bring some fun to your finals week!&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 08 May 2017 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/group/2017/05/08/Seniors17.html</link>
+				<guid isPermaLink="true">http://localhost:4000/group/2017/05/08/Seniors17.html</guid>
+			</item>
+		
+			<item>
 				<title>ICCAs</title>
 				
 				
