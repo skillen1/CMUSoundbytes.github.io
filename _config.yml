@@ -193,11 +193,11 @@ pages_list:
 # List of active members
  
 members_list:
-#Sopranos
-  leah: 
-    name: 'Leah Anton'
-    section: 'Soprano'
-    pic: "/img/members/sopranos/leah/leah1-MAIN-test.jpg"
+# Sopranos
+  # leah: 
+  #   name: 'Leah Anton'
+  #   section: 'Soprano'
+  #   pic: "/img/members/sopranos/leah/leah1-MAIN-test.jpg"
   catherine: 
     name: 'Catherine Mondoa'
     section: 'Soprano'
@@ -210,10 +210,10 @@ members_list:
     name: 'Zoe Lehn'
     section: 'Soprano'
     pic: "/img/members/sopranos/zoe/zoe2-MAIN-test.jpg"
-  lexi: 
-    name: 'Alexis De La Rosa'
-    section: 'Soprano'
-    pic: "/img/members/sopranos/lexi/lexi1-MAIN-test.jpg"
+  # lexi: 
+  #   name: 'Alexis De La Rosa'
+  #   section: 'Soprano'
+  #   pic: "/img/members/sopranos/lexi/lexi1-MAIN-test.jpg"
 #Altos
   toby: 
     name: 'Toby Donoghue'
@@ -237,10 +237,10 @@ members_list:
     pic: "/img/members/altos/christie/christie4-MAIN-test.jpg"
 
 #Tenors
-  quinton: 
-    name: 'Quinton Laurencio'
-    section: 'Tenor'
-    pic: "/img/members/tenors/q/Q4-MAIN-test.jpg"
+  # quinton: 
+  #   name: 'Quinton Laurencio'
+  #   section: 'Tenor'
+  #   pic: "/img/members/tenors/q/Q4-MAIN-test.jpg"
   johnathan: 
     name: 'Johnathan Roppo'
     section: 'Tenor'
@@ -264,26 +264,26 @@ members_list:
   
 
 #Basses
-  daniel: 
-    name: 'Daniel Graf'
-    section: 'Bass'
-    pic: "/img/members/basses/daniel/daniel2-test.jpg"
+  # daniel: 
+  #   name: 'Daniel Graf'
+  #   section: 'Bass'
+  #   pic: "/img/members/basses/daniel/daniel2-test.jpg"
   paul: 
     name: 'Paul Rogozenski'
     section: 'Bass'
     pic: "/img/members/basses/paul/paul5-MAIN-test.jpg"
-  jack: 
-    name: 'Jack Urbanek'
-    section: 'Bass'
-    pic: "/img/members/basses/jack/jack1-MAIN-test.jpg"
+  # jack: 
+  #   name: 'Jack Urbanek'
+  #   section: 'Bass'
+  #   pic: "/img/members/basses/jack/jack1-MAIN-test.jpg"
   sean: 
     name: 'Sean Park'
     section: 'Bass / Beatbox'
     pic: "/img/members/basses/sean/sean3-MAIN-test.jpg"  
-  nikhil: 
-    name: 'Nikhil Nilakantan'
-    section: 'Bass / Beatbox'
-    pic: "/img/members/basses/nikhil/nikhil1-MAIN-test.jpg"
+  # nikhil: 
+  #   name: 'Nikhil Nilakantan'
+  #   section: 'Bass / Beatbox'
+  #   pic: "/img/members/basses/nikhil/nikhil1-MAIN-test.jpg"
   
   
 # Exclusion list from the generated _site
