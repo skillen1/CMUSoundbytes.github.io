@@ -241,10 +241,10 @@ members_list:
   #   name: 'Quinton Laurencio'
   #   section: 'Tenor'
   #   pic: "/img/members/tenors/q/Q4-MAIN-test.jpg"
-  johnathan: 
-    name: 'Johnathan Roppo'
-    section: 'Tenor'
-    pic: "/img/members/tenors/johnathan/johnathan4-MAIN-test.jpg"
+  # johnathan: 
+  #   name: 'Johnathan Roppo'
+  #   section: 'Tenor'
+  #   pic: "/img/members/tenors/johnathan/johnathan4-MAIN-test.jpg"
   jesse: 
     name: 'Jesse Klein'
     section: 'Tenor'
