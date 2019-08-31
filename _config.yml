@@ -188,104 +188,104 @@ pages_list:
   Members: 'member-list'
   Contact: 'contact'
   Audition: 'audition'
-  
-  
+
+
 # List of active members
- 
+
 members_list:
 # Sopranos
-  # leah: 
+  # leah:
   #   name: 'Leah Anton'
   #   section: 'Soprano'
   #   pic: "/img/members/sopranos/leah/leah1-MAIN-test.jpg"
-  catherine: 
-    name: 'Catherine Mondoa'
-    section: 'Soprano'
-    pic: "/img/members/sopranos/catherine/catherine4-MAIN-test.jpg"
-  shreya: 
+  # catherine: 
+  #   name: 'Catherine Mondoa'
+  #   section: 'Soprano'
+  #   pic: "/img/members/sopranos/catherine/catherine4-MAIN-test.jpg"
+  shreya:
     name: 'Shreya Desikan'
     section: 'Soprano'
     pic: "/img/members/sopranos/shreya/shreya4-MAIN-test.jpg"
-  zoe: 
+  zoe:
     name: 'Zoe Lehn'
     section: 'Soprano'
     pic: "/img/members/sopranos/zoe/zoe2-MAIN-test.jpg"
-  # lexi: 
+  # lexi:
   #   name: 'Alexis De La Rosa'
   #   section: 'Soprano'
   #   pic: "/img/members/sopranos/lexi/lexi1-MAIN-test.jpg"
 #Altos
-  toby: 
+  toby:
     name: 'Toby Donoghue'
     section: 'Alto'
     pic: "/img/members/altos/toby/toby1-MAIN-test.jpg"
-  sarah: 
+  sarah:
     name: 'Sarah Karp'
     section: 'Alto'
     pic: "/img/members/altos/sarah/sarah1-MAIN-test.jpg"
-  # angela: 
+  # angela:
   #   name: 'Angela Yoo'
   #   section: 'Alto'
   #   pic: "/img/members/altos/angela/angela2-MAIN-test.jpg"
-  christina: 
+  christina:
     name: 'Christina Cabana'
     section: 'Alto'
     pic: "/img/members/altos/christina/christina1-MAIN-test.jpg"
-  christie: 
+  christie:
     name: 'Christie Chang'
     section: 'Alto'
     pic: "/img/members/altos/christie/christie4-MAIN-test.jpg"
 
 #Tenors
-  # quinton: 
+  # quinton:
   #   name: 'Quinton Laurencio'
   #   section: 'Tenor'
   #   pic: "/img/members/tenors/q/Q4-MAIN-test.jpg"
-  # johnathan: 
+  # johnathan:
   #   name: 'Johnathan Roppo'
   #   section: 'Tenor'
   #   pic: "/img/members/tenors/johnathan/johnathan4-MAIN-test.jpg"
-  jesse: 
+  jesse:
     name: 'Jesse Klein'
     section: 'Tenor'
     pic: "/img/members/tenors/jesse/jesse3-MAIN-test.jpg"
-  matthew: 
+  matthew:
     name: 'Matthew Gutierrez'
     section: 'Tenor'
     pic: "/img/members/tenors/matthew/matthew1-MAIN-test.jpg"
-  steven: 
+  steven:
     name: 'Steven MacDonald'
     section: 'Tenor'
     pic: "/img/members/tenors/steven/steven1-MAIN-test.jpg"
-  philip: 
+  philip:
     name: 'Philip DeCicco'
     section: 'Tenor'
     pic: "/img/members/tenors/phil/phil4-MAIN-test.jpg"
-  
+
 
 #Basses
-  # daniel: 
+  # daniel:
   #   name: 'Daniel Graf'
   #   section: 'Bass'
   #   pic: "/img/members/basses/daniel/daniel2-test.jpg"
-  paul: 
+  paul:
     name: 'Paul Rogozenski'
     section: 'Bass'
     pic: "/img/members/basses/paul/paul5-MAIN-test.jpg"
-  # jack: 
+  # jack:
   #   name: 'Jack Urbanek'
   #   section: 'Bass'
   #   pic: "/img/members/basses/jack/jack1-MAIN-test.jpg"
-  sean: 
+  sean:
     name: 'Sean Park'
     section: 'Bass / Beatbox'
-    pic: "/img/members/basses/sean/sean3-MAIN-test.jpg"  
-  # nikhil: 
+    pic: "/img/members/basses/sean/sean3-MAIN-test.jpg"
+  # nikhil:
   #   name: 'Nikhil Nilakantan'
   #   section: 'Bass / Beatbox'
   #   pic: "/img/members/basses/nikhil/nikhil1-MAIN-test.jpg"
-  
-  
+
+
 # Exclusion list from the generated _site
 
 exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
