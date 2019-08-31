@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) {
+
+
+	.intro
+	{
+		padding-top: 200px;
+	}
+
+	.intro .intro-body #intro-content
+	{
+		width: 80%;
+		top: 45%;
+	}
+
+	#latest-post
+	{
+		
+		padding-top: 0;
+	}
+
+	#latest-post
+	td
+	{
+		display: block;
+		text-align: center;
+	}
+
+	#latest-post
+	#image-cell
+	{
+		width: 100%;
+	}
+
+	#latest-post
+	#image-cell
+	img
+	{
+		border: none;
+		width: 40%;
+		float: none;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.intro .intro-body #intro-content
+	{
+		width: 100%;
+		left: 0;
+		top: 20%;
+		margin-top: 35%;
+		text-align: center;
+	}
+
+	#about
+	{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#about
+	{
+		padding-top: 200px;
+	}
+}

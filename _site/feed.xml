@@ -7,6 +7,19 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>AUDITION FOR SOUNDBYTES</title>
+				
+				
+					<description>&lt;p&gt;&lt;img class=&quot;titlepic&quot; src=&quot;/img/group/IMG_6493.JPG&quot; width=&quot;30%&quot; /&gt;
+AUDITION signups are live! Please come sing for us this upcoming Friday, September 6th, and Saturday, September 7th. If you have any questions, please feel free to reach out to one of us. Sign up &lt;a href=&quot;https://bit.ly/soundbytesaudition&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 31 Aug 2019 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/performance/2019/08/31/AUDITIONS.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2019/08/31/AUDITIONS.html</guid>
+			</item>
+		
+			<item>
 				<title>Happy Summer!</title>
 				
 				
@@ -119,18 +132,6 @@ Tomorrow is our last concert of the year, Almost Midnight A Cappella! We are rea
 				<pubDate>Thu, 22 Sep 2016 00:00:00 -0400</pubDate>
 				<link>http://localhost:4000/group/2016/09/22/newbytes-2016.html</link>
 				<guid isPermaLink="true">http://localhost:4000/group/2016/09/22/newbytes-2016.html</guid>
-			</item>
-		
-			<item>
-				<title>Hillary Campaign Rally</title>
-				
-				
-					<description>&lt;p&gt;Today, Soundbytes had the amazing privilege to perform at the campaign event for Hillary Clinton held at Carnegie Mellon University. We are incredibly grateful to everyone involved and honored to have had the opportunity to reach so many people with our music. Soundbytes would like to emphasize that our participation in this event does not reflect a group-wide endorsement for any candidate. However, we strongly encourage you to become informed on everyone’s stances on the issues and to vote for the candidate you agree with the most. Thank you to CMU Student Activities and the campaign for giving us this unique opportunity!&lt;/p&gt;
-</description>
-				
-				<pubDate>Sat, 16 Apr 2016 00:00:00 -0400</pubDate>
-				<link>http://localhost:4000/performance/2016/04/16/hillary.html</link>
-				<guid isPermaLink="true">http://localhost:4000/performance/2016/04/16/hillary.html</guid>
 			</item>
 		
 	</channel>
