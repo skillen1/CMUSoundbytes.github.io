@@ -43,9 +43,9 @@ favicon: "/img/soundbytesfavicon2.png"
 black-favicon: "/img/largelogo.png"
 
 # Header Pics
-audition-background-img: "../img/group/audition-group.jpg"
-blog-background-img: "../img/group/blog_group.jpg"
-background-img: "../img/group/mainphoto.jpg"
+audition-background-img: "../img/group/SoundBytes_0256.jpg"
+blog-background-img: "../img/group/SoundBytes_01254.jpg"
+background-img: "../img/group/soundbytes.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -198,14 +198,26 @@ members_list:
   #   name: 'Leah Anton'
   #   section: 'Soprano'
   #   pic: "/img/members/sopranos/leah/leah1-MAIN-test.jpg"
-  # catherine: 
+  # catherine:
   #   name: 'Catherine Mondoa'
   #   section: 'Soprano'
   #   pic: "/img/members/sopranos/catherine/catherine4-MAIN-test.jpg"
-  shreya:
-    name: 'Shreya Desikan'
+  grace:
+    name: 'Grace Alexander'
     section: 'Soprano'
-    pic: "/img/members/sopranos/shreya/shreya4-MAIN-test.jpg"
+    pic: "/img/members/sopranos/grace/SoundBytes_0325.jpg"
+  sophia:
+      name: 'Sophia Burke'
+      section: 'Soprano(Treasurer)'
+      pic: "/img/members/sopranos/sophia/SoundBytes_0509.JPG"
+  jessie:
+    name: 'Jessie Cheng'
+    section: 'Soprano'
+    pic: "/img/members/sopranos/jessie/SoundBytes_0519.JPG"
+  # shreya:
+  #   name: 'Shreya Desikan'
+  #   section: 'Soprano'
+  #   pic: "/img/members/sopranos/shreya/shreya4-MAIN-test.jpg"
   zoe:
     name: 'Zoe Lehn'
     section: 'Soprano'
@@ -215,26 +227,36 @@ members_list:
   #   section: 'Soprano'
   #   pic: "/img/members/sopranos/lexi/lexi1-MAIN-test.jpg"
 #Altos
-  toby:
-    name: 'Toby Donoghue'
-    section: 'Alto'
-    pic: "/img/members/altos/toby/toby1-MAIN-test.jpg"
-  sarah:
-    name: 'Sarah Karp'
-    section: 'Alto'
-    pic: "/img/members/altos/sarah/sarah1-MAIN-test.jpg"
+  # toby:
+  #   name: 'Toby Donoghue'
+  #   section: 'Alto'
+  #   pic: "/img/members/altos/toby/toby1-MAIN-test.jpg"
+  # # sarah:
+  #   name: 'Sarah Karp'
+  #   # section: 'Alto'
+  #   pic: "/img/members/altos/sarah/sarah1-MAIN-test.jpg"
   # angela:
   #   name: 'Angela Yoo'
   #   section: 'Alto'
   #   pic: "/img/members/altos/angela/angela2-MAIN-test.jpg"
-  christina:
-    name: 'Christina Cabana'
+  # christina:
+  #   name: 'Christina Cabana'
+  #   section: 'Alto'
+  #   pic: "/img/members/altos/christina/christina1-MAIN-test.jpg"
+  anne:
+    name: 'Anne Silbaugh'
     section: 'Alto'
-    pic: "/img/members/altos/christina/christina1-MAIN-test.jpg"
-  christie:
-    name: 'Christie Chang'
-    section: 'Alto'
-    pic: "/img/members/altos/christie/christie4-MAIN-test.jpg"
+    pic: "/img/members/altos/anne/IMG_2842.JPG"
+  kate:
+    name: 'Kate Stargiotti'
+    section: 'Alto (PR Chair)'
+    pic: "/img/members/altos/kate/SoundBytes_0469.jpg"
+
+
+  # christie:
+  #   name: 'Christie Chang'
+  #   section: 'Alto'
+  #   pic: "/img/members/altos/christie/christie4-MAIN-test.jpg"
 
 #Tenors
   # quinton:
@@ -245,22 +267,35 @@ members_list:
   #   name: 'Johnathan Roppo'
   #   section: 'Tenor'
   #   pic: "/img/members/tenors/johnathan/johnathan4-MAIN-test.jpg"
-  jesse:
-    name: 'Jesse Klein'
+  james:
+    name: 'James Crews'
     section: 'Tenor'
-    pic: "/img/members/tenors/jesse/jesse3-MAIN-test.jpg"
-  matthew:
-    name: 'Matthew Gutierrez'
-    section: 'Tenor'
-    pic: "/img/members/tenors/matthew/matthew1-MAIN-test.jpg"
-  steven:
-    name: 'Steven MacDonald'
-    section: 'Tenor'
-    pic: "/img/members/tenors/steven/steven1-MAIN-test.jpg"
-  philip:
-    name: 'Philip DeCicco'
-    section: 'Tenor'
-    pic: "/img/members/tenors/phil/phil4-MAIN-test.jpg"
+    pic: "/img/members/tenors/james/SoundBytes_0315.jpg"
+  shane:
+    name: 'Shane Killen'
+    section: 'Tenor (President)'
+    pic: "/img/members/tenors/shane/IMG_7727.JPG"
+  matt:
+    name: 'Matthew Lintern'
+    section: 'Tenor (Music Director)'
+    pic: "/img/members/tenors/matt/SoundBytes_0356.jpg"
+
+  # jesse:
+  #   name: 'Jesse Klein'
+  #   section: 'Tenor'
+  #   pic: "/img/members/tenors/jesse/jesse3-MAIN-test.jpg"
+  # matthew:
+  #   name: 'Matthew Gutierrez'
+  #   section: 'Tenor'
+  #   pic: "/img/members/tenors/matthew/matthew1-MAIN-test.jpg"
+  # steven:
+  #   name: 'Steven MacDonald'
+  #   section: 'Tenor'
+  #   pic: "/img/members/tenors/steven/steven1-MAIN-test.jpg"
+  # philip:
+  #   name: 'Philip DeCicco'
+  #   section: 'Tenor'
+  #   pic: "/img/members/tenors/phil/phil4-MAIN-test.jpg"
 
 
 #Basses
@@ -268,18 +303,27 @@ members_list:
   #   name: 'Daniel Graf'
   #   section: 'Bass'
   #   pic: "/img/members/basses/daniel/daniel2-test.jpg"
-  paul:
-    name: 'Paul Rogozenski'
+  # paul:
+  #   name: 'Paul Rogozenski'
+  #   section: 'Bass'
+  #   pic: "/img/members/basses/paul/paul5-MAIN-test.jpg"
+  jamesb:
+    name: 'James Barkley'
     section: 'Bass'
-    pic: "/img/members/basses/paul/paul5-MAIN-test.jpg"
+    pic: "/img/members/basses/james/SoundBytes_0496.JPG"
+  alex:
+    name: 'Alexander Xu'
+    section: 'Bass/Vocal Percussion'
+    pic: "/img/members/basses/alex/SoundBytes_0956.JPG"
+
   # jack:
   #   name: 'Jack Urbanek'
   #   section: 'Bass'
   #   pic: "/img/members/basses/jack/jack1-MAIN-test.jpg"
-  sean:
-    name: 'Sean Park'
-    section: 'Bass / Beatbox'
-    pic: "/img/members/basses/sean/sean3-MAIN-test.jpg"
+  # sean:
+  #   name: 'Sean Park'
+  #   section: 'Bass / Beatbox'
+  #   pic: "/img/members/basses/sean/sean3-MAIN-test.jpg"
   # nikhil:
   #   name: 'Nikhil Nilakantan'
   #   section: 'Bass / Beatbox'

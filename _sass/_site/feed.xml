@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Soundbytes</title>
+		<description>Singing in Scheme Since 1996. Known for their fierce color schemes and sultry style, Soundbytes pride themselves on their infectious performance groove - bringing their passion and sense of fun to any song that they perform. Founded in 1996,  Soundbytes was the first secular co-ed a cappella group on Carnegie Mellon University’s campus.</description>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Happy Summer!</title>
+				
+				
+					<description>&lt;p&gt;&lt;img class=&quot;titlepic&quot; src=&quot;/img/posts/2017/Endofyear.jpg&quot; width=&quot;30%&quot; /&gt;
+With another year in the books, we wanted to say how thankful we are for each other and this crazy, wonderful family 💙&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 10 May 2017 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/group/2017/05/10/Happy-Summer!.html</link>
+				<guid isPermaLink="true">http://localhost:4000/group/2017/05/10/Happy-Summer!.html</guid>
+			</item>
+		
+			<item>
+				<title>SeniorBytes 2017</title>
+				
+				
+					<description>&lt;p&gt;&lt;img class=&quot;titlepic&quot; src=&quot;/img/posts/2017/Seniors17.jpg&quot; width=&quot;30%&quot; /&gt;
+Tomorrow is our last concert of the year, Almost Midnight A Cappella! We are really excited to sing for you with all of the other a cappella groups on campus and hopefully bring some fun to your finals week!&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 08 May 2017 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/group/2017/05/08/Seniors17.html</link>
+				<guid isPermaLink="true">http://localhost:4000/group/2017/05/08/Seniors17.html</guid>
+			</item>
+		
+			<item>
+				<title>ICCAs</title>
+				
+				
+					<description>&lt;p&gt;Come see us compete at the International Competition of Collegiate A Cappella on March 4th! Buy your tickets from the event &lt;a href=&quot;https://www.facebook.com/events/1861321420805891/&quot;&gt;here&lt;/a&gt; :smile:&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 04 Mar 2017 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/performance/2017/03/04/iccas.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2017/03/04/iccas.html</guid>
+			</item>
+		
+			<item>
+				<title>Soundbytes Photoshoot</title>
+				
+				
+					<description>&lt;p&gt;Soundbytes photoshoot! Stay tuned for some 🔥 pictures. Huge thank you to &lt;a href=&quot;http://octoberlane.com/&quot;&gt;Toby Donoghue&lt;/a&gt; whose photography skills are just as beautiful as her voice.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 22 Jan 2017 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/group/2017/01/22/photoshoot.html</link>
+				<guid isPermaLink="true">http://localhost:4000/group/2017/01/22/photoshoot.html</guid>
+			</item>
+		
+			<item>
+				<title>Almost Midnight A Cappella Fall '16</title>
+				
+				
+					<description>&lt;p&gt;We are always happy to host AMAC, and provide campus with a well deserved break from finals. It was a great time showcasing lots of our arrangements, new and old, getting some almost midnight breakfast, taking our classic elevator selfie and hosting all of our friends in our campus a cappella groups. We wish everyone a safe and restful winter break and can’t wait for all of the exciting things happening in the spring semester! &amp;lt;3&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 13 Dec 2016 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/performance/2016/12/13/amac.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2016/12/13/amac.html</guid>
+			</item>
+		
+			<item>
+				<title>Bhangra in the Burgh</title>
+				
+				
+					<description>&lt;p&gt;We had the amazing opportunity to perform as an exhibition act for Bhangra in the Burgh 2016! Bhangra in the Burgh is a platform for top Bhangra (Indian folk dance) teams from across the nation to showcase their talent in a colorful exhibition of the energy and excitement that Bhangra represents. It is one of the largest student-run events in Pittsburgh and never fails to raise a great deal of money for charity, and we are so grateful to have been a part of it.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 19 Nov 2016 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/performance/2016/11/19/bhangra.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2016/11/19/bhangra.html</guid>
+			</item>
+		
+			<item>
+				<title>Performing with Billy Porter!</title>
+				
+				
+					<description>&lt;p&gt;Some of our group members got the chance to sing with Billy Porter, CMU alum and original Broadway cast member of the show Kinky Boots! Individuals from all of our campus a cappella groups came together to perform “Fight Song”, by Rachel Platten with Billy for an event held by individuals involved in the Clinton-Kane Campaign.&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 19 Oct 2016 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/performance/2016/10/19/billy-porter.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2016/10/19/billy-porter.html</guid>
+			</item>
+		
+			<item>
+				<title>Acapittsburgh 2016</title>
+				
+				
+					<description>&lt;p&gt;Our first performance of the semester (and the first performance with NewBytes!) was at Acapittsburgh 2016, CMU Counterpoints annual Charity Concert. The theme of the year was Music as a Universal Language. It always is an incredible experience to perform with all of Carnegie Mellon’s a cappella groups, we had a great time being the first group up and sharing the stage with everyone!&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 11 Oct 2016 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/performance/2016/10/11/acapittsburgh2016.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2016/10/11/acapittsburgh2016.html</guid>
+			</item>
+		
+			<item>
+				<title>New Bytes!</title>
+				
+				
+					<description>&lt;h5&gt;&lt;small&gt;&lt;strong&gt;After a long week of auditions and callbacks, we are so excited to welcome in the NewBytes of Fall 2016!&lt;/strong&gt;&lt;/small&gt;&lt;/h5&gt;
+
+</description>
+				
+				<pubDate>Thu, 22 Sep 2016 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/group/2016/09/22/newbytes-2016.html</link>
+				<guid isPermaLink="true">http://localhost:4000/group/2016/09/22/newbytes-2016.html</guid>
+			</item>
+		
+			<item>
+				<title>Hillary Campaign Rally</title>
+				
+				
+					<description>&lt;p&gt;Today, Soundbytes had the amazing privilege to perform at the campaign event for Hillary Clinton held at Carnegie Mellon University. We are incredibly grateful to everyone involved and honored to have had the opportunity to reach so many people with our music. Soundbytes would like to emphasize that our participation in this event does not reflect a group-wide endorsement for any candidate. However, we strongly encourage you to become informed on everyone’s stances on the issues and to vote for the candidate you agree with the most. Thank you to CMU Student Activities and the campaign for giving us this unique opportunity!&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 16 Apr 2016 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/performance/2016/04/16/hillary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/performance/2016/04/16/hillary.html</guid>
+			</item>
+		
+	</channel>
+</rss>

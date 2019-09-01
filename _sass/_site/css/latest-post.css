@@ -1,0 +1,32 @@
+#latest-post
+{
+	width: 100%;
+	background: linear-gradient(
+                     rgba(0,0,0, .2), 
+                     rgba(0,0,0, .99)),
+                     url("../img/group/bhangra.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+#latest-post
+table
+{
+	table-layout: fixed;
+	width: 100%;
+}
+
+#latest-post
+#image-cell
+{
+	width: 350px;
+}
+
+#latest-post
+#image-cell
+img
+{
+	border: none;
+	width: 90%;
+	float: right;
+}
