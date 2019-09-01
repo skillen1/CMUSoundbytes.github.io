@@ -209,11 +209,11 @@ members_list:
   sophia:
       name: 'Sophia Burke'
       section: 'Soprano(Treasurer)'
-      pic: "/img/members/sopranos/sophia/SoundBytes_0509.JPG"
+      pic: "/img/members/sopranos/sophia/SoundBytes_0509.jpg"
   jessie:
     name: 'Jessie Cheng'
     section: 'Soprano'
-    pic: "/img/members/sopranos/jessie/SoundBytes_0519.JPG"
+    pic: "/img/members/sopranos/jessie/SoundBytes_0519.jpg"
   # shreya:
   #   name: 'Shreya Desikan'
   #   section: 'Soprano'
@@ -310,11 +310,11 @@ members_list:
   jamesb:
     name: 'James Barkley'
     section: 'Bass'
-    pic: "/img/members/basses/james/SoundBytes_0496.JPG"
+    pic: "/img/members/basses/james/SoundBytes_0496.jpg"
   alex:
     name: 'Alexander Xu'
     section: 'Bass/Vocal Percussion'
-    pic: "/img/members/basses/alex/SoundBytes_0956.JPG"
+    pic: "/img/members/basses/alex/SoundBytes_0956.jpg"
 
   # jack:
   #   name: 'Jack Urbanek'
