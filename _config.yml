@@ -43,9 +43,9 @@ favicon: "/img/soundbytesfavicon2.png"
 black-favicon: "/img/largelogo.png"
 
 # Header Pics
-audition-background-img: "../img/group/SoundBytes_0256.jpg"
-blog-background-img: "../img/group/SoundBytes_01254.jpg"
-background-img: "../img/group/soundbytes.jpg"
+audition-background-img: "../img/group/soundbytes034.jpg"
+blog-background-img: "../img/group/soundbytes103.jpg"
+background-img: "../img/group/soundbytes128.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -220,12 +220,17 @@ members_list:
   #   pic: "/img/members/sopranos/shreya/shreya4-MAIN-test.jpg"
   zoe:
     name: 'Zoe Lehn'
-    section: 'Soprano'
-    pic: "/img/members/sopranos/zoe/zoe_profile.jpg"
+    section: 'Soprano(PR Chair)'
+    pic: "/img/members/sopranos/zoe/zoe.jpg"
   divya:
     name: 'Divya Viswanathan'
-    section:'Soprano'
-    pic:
+    section: 'Soprano'
+    pic: "/img/members/sopranos/divya/divya.jpg"
+  vivian:
+    name: Vivian Yuan
+    Section: 'Soprano'
+    pic: "/img/members/sopranos/vivian/vivian_.jpg"
+
   # lexi:
   #   name: 'Alexis De La Rosa'
   #   section: 'Soprano'
@@ -247,13 +252,21 @@ members_list:
   #   name: 'Christina Cabana'
   #   section: 'Alto'
   #   pic: "/img/members/altos/christina/christina1-MAIN-test.jpg"
+  sahithi:
+    name: 'Sahithi Kollipara'
+    section: 'Alto'
+    pic: "/img/members/altos/sahithi/sahithi.jpg"
+  nish:
+    name: 'Nish Nilakantan'
+    section: 'Alto'
+    pic: "/img/members/altos/zoe/nish_.jpg"
   anne:
     name: 'Anne Silbaugh'
     section: 'Alto'
     pic: "/img/members/altos/anne/IMG_2842.JPG"
   kate:
     name: 'Kate Stargiotti'
-    section: 'Alto (PR Chair)'
+    section: 'Alto (Music Director)'
     pic: "/img/members/altos/kate/SoundBytes_0469.jpg"
 
 
@@ -274,20 +287,20 @@ members_list:
   james:
     name: 'James Crews'
     section: 'Tenor'
-    pic: "/img/members/tenors/james/SoundBytes_0315.jpg"
+    pic: "/img/members/tenors/james/jamesC.jpg"
   shane:
     name: 'Shane Killen'
     section: 'Tenor (President)'
-    pic: "/img/members/tenors/shane/IMG_7727.JPG"
-  matt:
-    name: 'Matthew Lintern'
-    section: 'Tenor (Music Director)'
-    pic: "/img/members/tenors/matt/SoundBytes_0356.jpg"
+    pic: "/img/members/tenors/shane/shane.jpg"
+  # matt:
+  #   name: 'Matthew Lintern'
+  #   section: 'Tenor (Music Director)'
+  #   pic: "/img/members/tenors/matt/SoundBytes_0356.jpg"
 
   # jesse:
   #   name: 'Jesse Klein'
   #   section: 'Tenor'
-  #   pic: "/img/members/tenors/jesse/jesse3-MAIN-test.jpg"
+    # pic: """/img/members/tenors/jesse/jesse3-MAIN-test.jpg"
   # matthew:
   #   name: 'Matthew Gutierrez'
   #   section: 'Tenor'
@@ -303,6 +316,8 @@ members_list:
 
 
 #Basses
+
+
   # daniel:
   #   name: 'Daniel Graf'
   #   section: 'Bass'
@@ -311,15 +326,30 @@ members_list:
   #   name: 'Paul Rogozenski'
   #   section: 'Bass'
   #   pic: "/img/members/basses/paul/paul5-MAIN-test.jpg"
+  tommy:
+    name: 'Tommy Brecher'
+    section: 'Bass'
+    pic: "/img/members/basses/tommy/tommy.jpg"
   jamesb:
     name: 'James Barkley'
+    section: 'Bass(Vice President)'
+    pic: "/img/members/basses/james/jamesB.JPG"
+  andy:
+    name: 'Andrew Liu'
     section: 'Bass'
-    pic: "/img/members/basses/james/SoundBytes_0496.JPG"
+    pic: "/img/members/basses/andy/andrew_.jpg"
+  sergio:
+    name: 'Sergio Rodriguez'
+    section: 'Bass'
+    pic: "/img/members/basses/sergio/sergio.jpg"
   alex:
     name: 'Alexander Xu'
-    section: 'Bass/Vocal Percussion'
+    section: 'Bass'
     pic: "/img/members/basses/alex/SoundBytes_0956.JPG"
-
+colin:
+  name: 'Colin Walters'
+  section: 'Vocal Percussion'
+  pic: "/img/members/basses/colin/colin.jpg"
   # jack:
   #   name: 'Jack Urbanek'
   #   section: 'Bass'
