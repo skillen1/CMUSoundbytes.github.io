@@ -210,10 +210,7 @@ members_list:
       name: 'Sophia Burke'
       section: 'Soprano(Treasurer)'
       pic: "/img/members/sopranos/sophia/SoundBytes_0509.JPG"
-  # jessie:
-  #   name: 'Jessie Cheng'
-  #   section: 'Soprano'
-  #   pic: "/img/members/sopranos/jessie/SoundBytes_0519.JPG"
+
   # shreya:
   #   name: 'Shreya Desikan'
   #   section: 'Soprano'
@@ -357,7 +354,7 @@ colin:
   # sean:
   #   name: 'Sean Park'
   #   section: 'Bass / Beatbox'
-  #   pic: "/img/members/basses/sean/sean3-MAIN-test.jpg"
+  #   pic: "/img/members/basses/sean/sean3-MAIN-testt.jpg"
   # nikhil:
   #   name: 'Nikhil Nilakantan'
   #   section: 'Bass / Beatbox'
