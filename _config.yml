@@ -227,7 +227,7 @@ members_list:
     section: 'Soprano'
     pic: "/img/members/sopranos/divya/divya.jpg"
   vivian:
-    name: Vivian Yuan
+    name: 'Vivian Yuan'
     Section: 'Soprano'
     pic: "/img/members/sopranos/vivian/vivian_.jpg"
 
